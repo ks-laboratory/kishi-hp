@@ -1,0 +1,26 @@
+<br/><br/>
+
+<div class="container">
+  <h1>Publication</h1>
+</div>
+
+
+<div class="container" style="text-align: right;">
+  <a routerLink="/thesis" translate>→ 修論・卒論はこちら</a>
+</div>
+
+<br/><br/>
+
+<!-- 対外発表・対外論文・ポスター発表・全国大会等のリスト -->
+<div *ngFor="let year of publicationYearRange">
+  <div class="container">
+    <h2 class="year">{{year}}</h2>
+    <ul>
+      <div *ngFor="let publication of setPublicationsByYear(year)">
+        <li class="pub">{{publication.author}}, "{{publication.title}}," {{publication.name}}</li>
+      </div>
+    </ul>
+  </div>
+</div>
+
+<br/><br/>

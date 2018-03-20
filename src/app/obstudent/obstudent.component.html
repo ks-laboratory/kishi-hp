@@ -1,0 +1,51 @@
+
+<div class="container" style="text-align: center;">
+  <h3 tooltip="下のボタンをクリックすると、OBのメンバーリストが表示されます。">OB Member List</h3>
+  <div class="btn-group">
+    <label class="btn btn-default btn-block" [(ngModel)]="checkModel.show"
+      btnCheckbox [attr.active]="checkModel.show"
+      tooltip="こちらをクリックすると、OBのメンバーリストが表示/非表示を切り替えられます。">
+      <i class="fa fa-angle-down" aria-hidden="true" *ngIf="!checkModel.show"></i>
+      <i class="fa fa-angle-up" aria-hidden="true" *ngIf="checkModel.show"></i>
+      <span *ngIf="!checkModel.show" >[OPEN]</span>
+      <span *ngIf="checkModel.show" >[CLOSE]</span>
+      OB List
+    </label>
+  </div>
+</div>
+
+<br/>
+<div *ngIf="!checkModel.show">
+  <br/>
+</div>
+
+<div *ngIf="checkModel.show">
+  <!-- TODO: 2010-2013追加したらここの下の1行のみ消す -->
+  <div style="text-align:center;"><small>[2010-2013準備中]</small></div>
+  <!-- (TODO: 2010-2013追加したらここの上の1行のみ消す) -->
+  <div *ngFor="let obs_year of obs | keyvalues">
+    <div *ngIf="obs_year.value.bachelor.length!=0 || obs_year.value.master!=0">
+      <div class="container">
+        <h3 font-weight="bold" style="text-align: center;">{{obs_year.key}}</h3>
+      </div>
+      <div class="container">
+        <div fxLayout="row" fxFlex class="contentResp">
+          <div class="blocks" fxFlex *ngIf="obs_year.value.master">
+            <h5 font-weight="">Master</h5>
+            <div *ngFor="let ob of obs_year.value.master">
+              <span style="text-align: center;">{{ob}}</span>
+            </div>
+          </div>
+          <div class="blocks" fxFlex *ngIf="obs_year.value.bachelor">
+            <h5 font-weight="">Bachelor</h5>
+            <div *ngFor="let ob of obs_year.value.bachelor">
+              <span style="text-align: center;">{{ob}}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br/>
+    </div>
+  </div>
+</div>
+

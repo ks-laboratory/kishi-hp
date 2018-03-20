@@ -1,0 +1,76 @@
+.blocks .center-p{
+  text-align: center;
+}
+
+.blocks{
+  text-align: center;
+}
+
+.blocks p{
+  text-align: left;
+}
+.blocks h3, h4{
+  font-weight: bold;
+  text-align: center;
+}
+
+.circle{
+  // width:180px;
+  // height:180px;
+  text-align: center;
+}
+.circle .btn{
+  text-align: center;
+}
+.circle img{
+  width:180px;
+  height:180px;
+  border-radius: 180px;
+  -webkit-border-radius: 180px;
+  -moz-border-radius: 180px;
+  text-align: center;
+}
+
+.modal-title{
+  text-align: center;
+}
+
+.modal-body{
+  text-align: center;
+}
+
+.modal-body p{
+  text-align: left;
+}
+
+.jumbotron{
+  background: url("../../assets/img/research/head.jpg") center;
+  min-width: 40%;
+  // max-height: 280px;
+  background-size: cover;
+  max-height: 32vh;
+}
+
+@media only screen and (max-width: 767px){
+  .jumbotron{
+    background: url("../../assets/img/research/head_small.jpg") center;
+    min-width: 40%;
+    // max-height: 280px;
+    background-size: cover;
+    max-height: 32vh;
+  }
+}
+
+.jumbotron .container{
+  color: rgb(253, 253, 253);
+  // color: #bffaed;
+  text-align: left;
+  // min-width: 50%;
+  background-color: rgb(87, 82, 82);
+  background: rgba(45,45,45, 0.01);
+}
+
+.lead, .display-4{
+  text-shadow: 1.5px 1.5px 2px #999999;
+}
+

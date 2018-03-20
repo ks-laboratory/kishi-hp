@@ -1,0 +1,65 @@
+.top-carousel{
+  text-align: center;
+  // margin: 0 auto;
+  background-color: gray;
+}
+
+.top-pc-img img {
+  width: 800px;
+  height: 400px;
+  max-width: 100%;
+  max-height: 360px;
+  background: center;
+  background-size: cover;
+}
+
+
+.item {
+  background: rgb(34, 32, 32);
+}
+
+.carousel-caption{
+  text-align: center;
+  background-color: rgb(36, 35, 35);
+  opacity: 0.9;
+  max-width: 800px;
+  left: 25%;
+  right: 25%;
+}
+
+.carousel-caption h3{
+  color: #fff;
+  font-weight: bold;
+  font-size: 180%;
+  // text-shadow: 2px 2px 0.5px #c0bbbb;
+}
+
+.carousel-caption p{
+  color: #fff;
+  font-weight: bold;
+  font-size: 120%;
+  // text-shadow: 2px 2px 0.5px #c0bbbb;
+}
+
+.card-text{
+  font-size: .9rem;
+}
+
+.card-body{
+  padding: .8rem 1.25rem .5rem 1.25rem;
+}
+
+.card-title{
+  margin-bottom: .2rem;
+}
+
+@media only screen and (max-width: 767px){
+  .container {
+    span.card-text {
+      font-size: 80%;
+    }
+    .card-title {
+      font-size: 85%;
+    }
+  }
+}

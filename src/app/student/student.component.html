@@ -1,0 +1,84 @@
+<!-- students picture -->
+<div class="container">
+  <div class="card bg-dark text-white">
+    <img class="card-img" src="assets/img/home/top2017.png" alt="home">
+    <div class="card-img-overlay"><br/>
+      <!-- <h2 class="card-text"> - MEMBER - </h2> -->
+    </div>
+  </div>
+</div>
+
+<br/>
+<hr width="50%" />
+
+<!-- カラム数 PC-default -->
+<div *ngIf="students">
+  <div class="container">
+    <div fxShow fxLayout="row" fxHide.xs="true" fxHide.sm="true" fxFlex class="contentResp">
+      <div class="blocks" fxFlex>
+        <h3>M2</h3>
+        <div *ngFor="let student of students['m2']">
+          <span>{{student}}</span>
+        </div>
+        <br/>
+      </div>
+      <div class="blocks" fxFlex>
+        <h3>M1</h3>
+        <div *ngFor="let student of students['m1']">
+          <span>{{student}}</span>
+        </div>
+        <br/>
+      </div>
+      <div class="blocks" fxFlex>
+        <h3>B4</h3>
+        <div *ngFor="let student of students['b4']">
+          <span>{{student}}</span>
+        </div>
+        <br/>
+      </div>
+      <div class="blocks" fxFlex>
+        <h3>B3</h3>
+        <div *ngFor="let student of students['b3']">
+          <span>{{student}}</span>
+        </div>
+        <br/>
+      </div>
+    </div>
+    <!-- カラム数変更用 -->
+    <div fxHide fxLayout="column" fxHide.xs="false" fxHide.sm="false" fxFlex class="contentResp">
+      <div class="blocks" fxFlex>
+        <h3>M2</h3>
+        <div *ngFor="let student of students['m2']">
+          <span>{{student}}</span>
+        </div>
+        <br/>
+      </div>
+      <div class="blocks" fxFlex>
+        <h3>M1</h3>
+        <div *ngFor="let student of students['m1']">
+          <span>{{student}}</span>
+        </div>
+        <br/>
+      </div>
+    </div>
+    <div fxHide fxLayout="column" fxHide.xs="false" fxHide.sm="false" fxFlex class="contentResp">
+      <div class="blocks" fxFlex>
+        <h3>B4</h3>
+        <div *ngFor="let student of students['b4']">
+          <span>{{student}}</span>
+        </div>
+        <br/>
+      </div>
+      <div class="blocks" fxFlex>
+        <h3>B3</h3>
+        <div *ngFor="let student of students['b3']">
+          <span>{{student}}</span>
+        </div>
+        <br/>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+

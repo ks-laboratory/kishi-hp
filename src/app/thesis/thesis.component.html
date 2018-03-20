@@ -1,0 +1,33 @@
+<br/><br/>
+
+<div class="container">
+  <h1>Thesis</h1><span translate>-修論・卒論リスト-</span>
+</div>
+
+
+<div class="container" style="text-align: right;">
+  <a routerLink="/publication" translate>→ 論文や対外発表などはこちら</a>
+</div>
+
+<br/><br/>
+
+<!-- 対外発表・対外論文・ポスター発表・全国大会等のリスト -->
+<div *ngFor="let year of thesisYearRange">
+  <div class="container">
+    <h2>{{year}}</h2>
+    <div *ngFor="let degree of thesisDegreeRange">
+      <div *ngIf="setThesesByYearDegree(year, degree).length > 0">
+        <p>&nbsp;[{{degree | uppercase}}]</p>
+      </div>
+      <ul>
+        <div *ngFor="let thesis of setThesesByYearDegree(year, degree)">
+          <li>{{thesis}}</li>
+        </div>
+      </ul>
+    </div>
+  </div>
+  <br/>
+</div>
+
+<br/><br/>
+

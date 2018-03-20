@@ -1,4 +1,88 @@
-<h1>
-  {{title}}
-</h1>
+<div class="navbar-header nav-not-mobile" *ngIf="isMobile === false">
+  <nav class="navbar site-header sticky-top navbar-light style=background-color:#005684;">
+    <a class="navbar-brand" routerLink="/home" [queryParams]="{lang: lang}">
+      <img src="assets/img/k_logo2_white.png" width="99%" height="auto" alt="logo">
+    </a>
+    <tabset>
+      <tab heading="Home" id="home" (select)="clickTab('/home')" [active]="location.path()=='/home'"></tab>
+      <tab heading="About" id="about" (select)="clickTab('/about')" [active]="location.path()=='/about'"></tab>
+      <tab heading="Activity" id="activity" (select)="clickTab('/activity')" [active]="location.path()=='/activity'"></tab>
+      <tab heading="Research" id="research" (select)="clickTab('/research')" [active]="location.path()=='/research'"></tab>
+      <tab heading="Publication" id="publication" (select)="clickTab('/publication')" [active]="location.path()=='/publication'"></tab>
+      <tab heading="Contact" id="contact" (select)="clickTab('/contact')" [active]="location.path()=='/contact'"></tab>
+      <tab heading="→ English" id="en" (select)="clickLanTab('en')" *ngIf="currentLang=='ja'" class="lang"></tab>
+      <tab heading="→ Japanese" id="ja" (select)="clickLanTab('ja')" *ngIf="currentLang=='en'" class="lang"></tab>
+  </tabset>
+  </nav>
+</div>
+
+
+<div class="navbar-header nav-mobile" *ngIf="isMobile">
+  <nav class="navbar site-header sticky-top navbar-light style=background-color:#005684;">
+    <a class="navbar-brand" routerLink="/home">
+      <img src="assets/img/k_logo2_white.png" width="90%" height="auto" alt="logo">
+    </a>
+    <button (click)="clickLanTab('en')" *ngIf="currentLang=='ja'" class="lang">→ English</button>
+    <button (click)="clickLanTab('ja')" *ngIf="currentLang=='en'" class="lang">→ Japanese</button>
+  </nav>
+</div>
+
+
+<!-- Routingによるコンポーネント制御部分 -->
 <router-outlet></router-outlet>
+
+
+<br/><br/>
+
+<!-- フッター by Stickyfooter -->
+<footer class="footer" *ngIf="!isMobile">
+  <div class="container">
+    <p class="text-muted" style="text-align:left;">Copyright &copy; Waseda University, Kishi Lab, 2018</p>
+  </div>
+</footer>
+
+<!-- モバイル用タブバーフッター -->
+<div class="tabbar" id="footer" *ngIf="isMobile">
+
+  <label class="tabbar__item" [style.color]="isActive('/home') ? 'skyblue' : 'gray'">
+    <button class="tabbar__button" (click)="clickTab('/home')" [disabled]="isActive('/home')">
+      <i class="tabbar__icon ion-home"></i>
+      <div class="tabbar__label">Home</div>
+    </button>
+  </label>
+
+  <label class="tabbar__item" [style.color]="isActive('/about') ? 'skyblue' : 'gray'">
+    <button class="tabbar__button" (click)="clickTab('/about')" [disabled]="isActive('/about')">
+      <i class="tabbar__icon ion-ios-people"></i>
+      <div class="tabbar__label">About</div>
+    </button>
+  </label>
+
+  <label class="tabbar__item" [style.color]="isActive('/activity') ? 'skyblue' : 'gray'">
+    <button class="tabbar__button" (click)="clickTab('/activity')" [disabled]="isActive('/activity')">
+      <i class="tabbar__icon ion-university"></i>
+      <div class="tabbar__label">Activity</div>
+    </button>
+  </label>
+
+  <label class="tabbar__item" [style.color]="isActive('/research') ? 'skyblue' : 'gray'">
+    <button class="tabbar__button" (click)="clickTab('/research')" [disabled]="isActive('/research')">
+      <i class="tabbar__icon ion-android-laptop"></i>
+      <div class="tabbar__label">Research</div>
+    </button>
+  </label>
+
+  <label class="tabbar__item" [style.color]="isActive('/publication') ? 'skyblue' : 'gray'">
+    <button class="tabbar__button" (click)="clickTab('/publication')" [disabled]="isActive('/publication')">
+      <i class="tabbar__icon ion-ios-book"></i>
+      <div class="tabbar__label">Publication</div>
+    </button>
+  </label>
+
+  <label class="tabbar__item" [style.color]="isActive('/contact') ? 'skyblue' : 'gray'">
+    <button class="tabbar__button" (click)="clickTab('/contact')" [disabled]="isActive('/contact')">
+      <i class="tabbar__icon ion-information-circled"></i>
+      <div class="tabbar__label">Contact</div>
+    </button>
+  </label>
+</div>

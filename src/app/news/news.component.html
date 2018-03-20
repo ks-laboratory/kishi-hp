@@ -1,0 +1,95 @@
+<br/><br/>
+
+<div class="container">
+  <h1>News</h1>
+</div>
+
+<br/><br/>
+
+<!-- Newsリスト -->
+<!-- 英語版 -->
+<!-- 英語版はdetailではなく、abstractのみ -->
+<div *ngIf="currentLang=='en'; else jaNewsBlock">
+  <div *ngFor="let one_news of getAllNews()">
+    <div class="container">
+      <br/>
+      <p>
+        <fa [name]="'caret-right'"></fa>
+        &nbsp;{{one_news.en_title}}
+      </p>
+      <footer class="blockquote-footer">
+        {{one_news.date | date :'longDate' :'ja-JP'}}
+      </footer>
+    </div>
+    <!-- imgがある場合 -->
+    <div *ngIf="one_news.img_url; else notImgBlock">
+      <div class="container">
+        <div fxLayout="row" fxLayout.xs="column" fxLayout.sm="column" fxFlex class="contentResp">
+          <div class="blocks blocks-img" fxFlex="35" fxLayout.tablet="100" fxFlex.xs="100" fxFlex.sm="100">
+            <br/>
+            <img [src]="one_news.img_url" alt="one_news">
+          </div>
+          <div class="blocks" fxFlex>
+            <br/>
+            <span>{{one_news.en_abstract}}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- imgがない場合 -->
+    <ng-template #notImgBlock>
+      <div class="container">
+        <div fxLayout="row" fxLayout.xs="column" fxLayout.sm="column" fxFlex class="contentResp">
+          <div class="blocks" fxFlex>
+            <span>{{one_news.en_abstract}}</span>
+          </div>
+        </div>
+      </div>
+    </ng-template>
+    <br/>
+  </div>
+</div>
+<!-- 日本語版 -->
+<ng-template #jaNewsBlock>
+  <div *ngFor="let one_news of getAllNews()">
+    <div class="container">
+      <br/>
+      <p>
+        <fa [name]="'caret-right'"></fa>
+        &nbsp;{{one_news.title}}
+      </p>
+      <footer class="blockquote-footer">
+        {{one_news.date | date :'longDate' :'ja-JP'}}
+      </footer>
+    </div>
+    <!-- imgがある場合 -->
+    <div *ngIf="one_news.img_url; else notImgBlock">
+      <div class="container">
+        <div fxLayout="row" fxLayout.xs="column" fxLayout.sm="column" fxFlex class="contentResp">
+          <div class="blocks blocks-img" fxFlex="35" fxLayout.tablet="100" fxFlex.xs="100" fxFlex.sm="100">
+            <br/>
+            <img [src]="one_news.img_url" alt="one_news">
+          </div>
+          <div class="blocks" fxFlex>
+            <br/>
+            <span>{{one_news.detail}}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- imgがない場合 -->
+    <ng-template #notImgBlock>
+      <div class="container">
+        <div fxLayout="row" fxLayout.xs="column" fxLayout.sm="column" fxFlex class="contentResp">
+          <div class="blocks" fxFlex>
+            <span>{{one_news.detail}}</span>
+          </div>
+        </div>
+      </div>
+    </ng-template>
+    <br/>
+  </div>
+</ng-template>
+
+
+<br/><br/>

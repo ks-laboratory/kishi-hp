@@ -1,0 +1,177 @@
+// recent news追加はこちら
+// 追加時は上に追加すること（ソートしないので）
+// 上が最新
+
+// img_urlは"assets/img/about/message_kishi.png"のようなassetsからの形式で記述
+// 載せる写真がない場合はnullを設定
+
+export const NEWS: {date: Date, title: string, en_title: string,
+  abstract: string, en_abstract: string, detail: string, img_url: string}[] = [
+  // 最新はここの上に追加していく
+  {
+    date: new Date('2018-03-20'),
+    title: '岸研究室HPの大幅アップデート',
+    en_title: 'Large scale update of Kishi lab\'s web site.',
+    abstract: 'この岸研究室のホームページをAngularを用いたモダンなSPAに一新しました。',
+    en_abstract: 'We renewed the website of Kishi laboratory to modern SPA using Angular framework.',
+    detail: `岸研究室の本ホームページのデザインやコンテンツ、内部的には実装アーキテクチャ等を大幅に更新しました。
+    技術スタックは、従来はJavaScriptライブラリのjQueryなどを主に用いていましたが、
+    フロントエンドWebアプリケーションフレームワークAngular(Angular2系,Angular5)を
+    用いたモダンなSingle-Page Application(SPA)に一新しました。ぜひご覧ください。`,
+    img_url: null,
+  },
+  {
+    date: new Date('2018-03-15'),
+    title: '情報処理学会第80回全国大会にてM1,M2の6名が発表、張が受賞',
+    en_title: 'At the 80th National Convention of IPSJ, six people M1 and M2 presented.',
+    abstract: '3/13-15の全国大会でYUAN,徐,中村,矢島(M1),木村,張(M2)が発表しました。',
+    en_abstract: `Yuen, Xu, Nakamura, Yajima (M1), Kimura and Zhang (M2) presented at
+     the 80th National Convention of IPSJ held at 3 /13-15.`,
+    detail: `2018/3/13(Tue.)〜15(Thu.)、早稲田大学西早稲田キャンパスにて開催された
+    情報処理学会 第80回全国大会で、岸研究室から、
+    木村「貢献度を用いた共通ゴール判別手法の提案」,
+    張「MDAアプローチを適用したスマートフォン・アプリケーション・プロトタイプ自動生成手法」(M2)、
+    YUAN「多目的最適化手法を用いたテストケース優先度決定手法」,
+    徐「SSNオントロジに基づくエッジ側での効率的なIoTデータフィルタリング手法」,
+    中村「IoTシステムのゲートウェイにおける実行履歴を利用した運用プロファイル生成手法」,
+    矢島「IoTにおけるエッジ側アクセス規制のセキュリティ検証」(M1)が発表しました。
+    M2の張カンウが「学生奨励賞」を受賞しました。
+    また、今回は早稲田大学開催ということもあり、岸研究室B3〜M2まで沢山の岸研究室メンバー
+    が運営のお手伝いのアルバイトを行いました。`,
+    img_url: 'assets/img/news/news20180318.jpg',
+  },
+  {
+    date: new Date('2018-03-10'),
+    title: '第198回ソフトウェア工学研究会(SIGSE)にて、M2の大嶋が発表',
+    en_title: 'M2 Oshima presented at the 198th IPSJ SIGSE.',
+    abstract: '3/9-10の第198回ソフトウェア工学研究発表会でM2大嶋乃斗が発表しました。',
+    en_abstract: `Naito OSHIMA of M2 presented the paper at the 198th IPSJ SIGSE
+     (SIG Software Engineering) held on 3/9-10.
+     【大嶋乃斗,岸知二,"コンポーネント指向フレームワークを用いたSPAの画面遷移を対象とするモデル検査手法,"2018-SE-198, No.8, pp.1-7】`,
+    detail: `2018/3/9(Fri.)〜10(Sat.)、芝浦工業大学豊洲キャンパスにて開催された
+    第198回ソフトウェア工学研究会(SIGSE)で、M2の大嶋乃斗が
+    「コンポーネント指向フレームワークを用いたSPAの画面遷移を対象とするモデル検査手法」を発表しました。
+    【大嶋乃斗,岸知二,"コンポーネント指向フレームワークを用いたSPAの画面遷移を対象とするモデル検査手法,"2018-SE-198, No.8, pp.1-7】`,
+    img_url: null,
+  },
+  {
+    date: new Date('2018-02-06'),
+    title: '【OB向け】開催予定のOB会中止のご連絡',
+    en_title: '【For OB】Canceling OB meeting',
+    abstract: '2018/2/10開催予定のOB会は諸事情により、中止とさせていただきます。',
+    en_abstract: `The OB meeting that was scheduled to be held on February 10,
+     2018 will be canceled due to various circumstances.`,
+    detail: `大変申し訳ございませんが、2018/2/10に開催予定だったOB会は諸事情により、
+    中止とさせていただきます。来年度以降の開催についても、決定次第、本HPのRecent News欄にて告知していく予定です。`,
+    img_url: null,
+  },
+  {
+    date: new Date('2017-11-25'),
+    title: '第24回FOSE2017にて、M2の田中がポスター発表',
+    en_title: 'At the 24th FOSE 2017, M2 Tanaka made the presentation at the poster session.',
+    abstract: '11/23-25のFOSE2017でM2田中颯がポスター発表,岸教授がショートペーパー発表をしました。',
+    en_abstract: `At the 24th FOSE 2017 held on 11 / 23-25, M2's Hayate TANAKA presented at the poster session.
+     Prof. Kishi also made a presentation at the short paper session.`,
+    detail: `2017/11/23(Thu.)〜25(Sat.)、福井県あわら温泉 清風荘にて開催された
+    第24回ソフトウェア工学の基礎ワークショップ2017で 、M2の田中颯が
+    「メトリクスの分布情報を考慮したFP予測手法」をポスター発表しました。
+    岸教授もショートペーパーセッションにて、「フィーチャモデルの記述の妥当性に関する考察」の発表を行いました。
+    【岸知二,野田夏子,"フィーチャモデルの記述の妥当性に関する考察,"FOSE2017, pp.195-200】`,
+    img_url: null,
+  },
+  {
+    date: new Date('2017-11-20'),
+    title: '鴨川セミナーハウスにて秋合宿',
+    en_title: 'We conducted the autumn camp in Kamogawa seminar house.',
+    abstract: '11/18-19で、鴨川セミナーハウスにて、秋合宿を行いました。',
+    en_abstract: `The autumn camp held at the Kamogawa seminar house on 11/18-19.`,
+    detail: `11/18(Sat.),19(Sun.)、鴨川セミナーハウスにて、秋合宿を行いました。
+    9月から新しく岸研究室に入ったB3を交えての初めての合宿でした。
+    B3もProgrammableなRobotic BallであるSpheroを用いたお題の発表を行い、
+    学生と教授の投票によるコンテストを開催しました。B4,M2は春口の修論・卒論に向け、
+    研究内容の理解共有や進捗発表を行いました。新しく加入したB3と親睦を深める良い機会となりました。`,
+    img_url: 'assets/img/news/news20171120.jpg',
+  },
+  {
+    date: new Date('2017-08-12'),
+    title: '本庄セミナーハウスにて夏合宿',
+    en_title: 'We held summer camp in Honjo seminar house.',
+    abstract: '8/9-11で、本庄セミナーハウスにて、夏合宿を行いました。',
+    en_abstract: `We held summer camp in Honjo seminar house at 8/9-11.`,
+    detail: `2017/8/9(Sat.)〜11(Sun.)、本庄セミナーハウスにて、夏合宿を行いました。
+    本庄セミナーハウスはこの春2017年4月に新たに開設されたセミナーハウスのため、
+    初めての本庄での合宿となりました。研究内容の理解共有や進捗発表のほか、
+    M1による授業なども行いました。夜には、バーベキューや飲み会なども開催しました。
+    また、2017年卒のOBの方も来ていただきました。ありがとうございました。`,
+    img_url: 'assets/img/news/news20170812.png',
+  },
+  {
+    date: new Date('2017-08-08'),
+    title: '早稲田理工主催のユニラブにて岸研究室として初出展',
+    en_title: 'Kishi Laboratory exhibited for the first time at the University Laboratory.',
+    abstract: '8/8に開催の早稲田理工主催のユニラブにて小学生向けのプログラミング教室を初出展',
+    en_abstract: `Kishi Laboratory exhibited programming classes for elementary school students
+    for the first time on August 8 at the University Lablatory sponsored by "Faculty of Science and Engineering, Waseda University".`,
+    detail: `2017/8/8(Tue.)、早稲田大学西早稲田キャンパスで毎年開催されている
+    早稲田理工学術院主催のユニラブ(University Lablatory)にて、小中学生の科学実験教室「ユニラブ」に
+    プログラミング教育の分野で、岸研究室として初の出展を行い、沢山の小学生に楽しんでいただきました。
+    学生が中心となって企画し、小学3,4年生を対象に、ビジュアルプログラミングScratchを用いて、
+    「君もプログラマになれる！-自分だけのゲームを作ろう-」として、約2時間のゲーム作り教室を実施しました。`,
+    img_url: 'assets/img/news/news20170808.jpg',
+  },
+  {
+    date: new Date('2017-03-24'),
+    title: '2016年度卒業生(2017年3月卒) ご卒業おめでとうございます！',
+    en_title: 'Congratulations on your graduation in 2016 (graduated in March 2017)!!',
+    abstract: '3/24に2016年度卒業生(2017年3月卒)を祝う追い出しコンパを開催しました。',
+    en_abstract: `We held a party to celebrate graduates of 2016 (graduated from March 2017) on March 24.`,
+    detail: `2017/3/24に2016年度卒業生(2017年3月卒)を祝う追い出しコンパを
+    新宿ワシントンホテルにて開催しました。卒業生の方、今まで本当にありがとうございました。
+    ご卒業おめでとうございます！`,
+    img_url: 'assets/img/news/news20170324.jpg',
+  },
+  {
+    date: new Date('2017-03-19'),
+    title: '情報処理学会第79回全国大会にてM1,M2の5名が発表、櫻井と大嶋の2人が受賞。',
+    en_title: 'At the 79th National Convention of IPSJ, five presenters M1 and M2 presented their presentations, two were awarded.',
+    abstract: '3/16-18開催の全国大会で大竹,櫻井(M2),大嶋,木村,張(M1)が発表し、櫻井と大嶋が受賞。',
+    en_abstract: `Otake, Sakurai (M2), Oshima, Kimura and Zhang (M1)
+     made a presentation at the 79th National Convention of IPSJ held on 3/16-18. Additionally, Sakurai and Oshima received the award.`,
+    detail: `2017/3/16(Thu.)〜18(Sat.)、名古屋大学にて開催された
+    情報処理学会 第79回全国大会で、岸研究室から、
+    大竹「BLE接続による柔軟なセンサ連携手法の提案」,
+    櫻井「ソフトウェアの更新差分情報を用いたテストケース生成手法」(M2)、
+    大嶋「Ruby on Railsを対象としたモデル検査による画面遷移検証」,
+    木村「テスト順序を考慮したペアワイズ法によるテストケース生成手法」,
+    張「スマートフォン特有の操作性に注目したGUIのモデル駆動開発手法」,
+    が発表しました。M2の櫻井佳樹とM1の大嶋乃斗が「学生奨励賞」を受賞しました。`,
+    img_url: null,
+  },
+  {
+    date: new Date('2016-09-03'),
+    title: 'SES2016の論文セッションでM1の田中が発表',
+    en_title: 'Mr. Tanaka made a presentation at SES 2016 paper session.',
+    abstract: '8/31-9/2開催のSES2016の論文セッションでM1の田中が発表しました。',
+    en_abstract: `M1's Hayate TANAKA made a presentation at the SES 2016 paper session held at 8/31-9/2.`,
+    detail: `2016/8/31(Wed.)〜9/2(Fri.)、東洋大学白山キャンパスにて開催した
+    ソフトウェアエンジニアリングシンポジウム2016(IPSJ/SIGSE Software Engineering Symposium[SES2016])
+    の9/1(Thu.)の「論文セッション：プロジェクト予測・分析」でM1の田中颯が
+    「変更履歴を活用したFault-prone予測モデルの提案」を発表しました。`,
+    img_url: null,
+  },
+  {
+    date: new Date('2016-08-18'),
+    title: 'SES2016の査読付シンポジウム論文にM1の田中が採択',
+    en_title: 'Congratulations to tanaka\'s paper accepted by SES2016',
+    abstract: '8/31-9/2開催予定のSES2016のシンポジウム論文にM1の田中が採択されました。',
+    en_abstract: `The paper of Mr.Tanaka was accepted in the peer-reviewed symposium paper of
+     SES 2016 scheduled to be held on 8/31-9/2.
+      【田中颯,岸知二,"変更履歴を活用したFault-prone予測モデルの提案,"ソフトウェアエンジニアリングシンポジウム2016論文集,pp.42-49】`,
+    detail: `2016/8/31(Wed.)〜9/2(Fri.)、東洋大学にて開催予定の
+    ソフトウェアエンジニアリングシンポジウム2016(IPSJ/SIGSE Software Engineering Symposium[SES2016])
+    の査読付きシンポジウム論文にM1の田中颯の「変更履歴を活用したFault-prone予測モデルの提案」が
+    採択されました。9/1に論文セッションで発表予定です。
+    【田中颯,岸知二,"変更履歴を活用したFault-prone予測モデルの提案,"ソフトウェアエンジニアリングシンポジウム2016論文集,pp.42-49】`,
+    img_url: null,
+  },
+];

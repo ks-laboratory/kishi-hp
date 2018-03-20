@@ -1,0 +1,189 @@
+<br/>
+<div class="container">
+  <p style="text-align: center; font-style: oblique;" translate>岸研究室は充実した設備が整っています</p>
+</div>
+
+
+<div class="container">
+  <div fxLayout="row" fxLayout.xs="column" fxLayout.sm="column" fxFlex class="contentResp">
+    <div class="blocks" fxFlex>
+      <br/><h4>PC/Tablet</h4>
+      <div class="circle">
+        <button type="button" class="btn btn-default" (click)="detailModal1.show()">
+          <br/><img src="assets/img/env/imacpc.jpg" alt="Second">
+        </button>
+      </div>
+    </div>
+    <div class="blocks" fxFlex>
+      <br/><h4>Equipments</h4>
+      <div class="circle">
+        <button type="button" class="btn btn-default" (click)="detailModal2.show()">
+          <br/><img src="assets/img/env/p3d.jpg" alt="Second" class="center-block">
+        </button>
+      </div>
+    </div>
+    <div class="blocks" fxFlex>
+      <br/><h4>Books</h4>
+      <div class="circle">
+        <button type="button" class="btn btn-default" (click)="detailModal3.show()">
+          <br/><img src="assets/img/env/books.jpg" alt="Second" class="center-block">
+        </button>
+      </div>
+    </div>
+    <div class="blocks" fxFlex>
+      <br/><h4>Others</h4>
+      <div class="circle">
+        <button type="button" class="btn btn-default" (click)="detailModal4.show()">
+          <br/><img src="assets/img/env/pod.jpg" alt="Second" class="center-block">
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <!-- Modal -->
+  <div class="modal fade" bsModal #detailModal1="bs-modal" [config]="{backdrop: 'true'}"
+       tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title pull-left" translate>PC/Tablet(デバイス)</h4>
+          <button type="button" class="close pull-right" aria-label="Close" (click)="detailModal1.hide()">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <div fxLayout="row" fxLayout.xs="column" fxLayout.sm="column" fxFlex class="contentResp">
+              <div class="blocks" fxFlex>
+                <img src="assets/img/env/macsurface.jpg" width="200px" height="160px">
+              </div>
+              <br/>
+              <div class="blocks" fxFlex>
+                <img src="assets/img/env/imac.jpg" width="200px" height="160px">
+              </div>
+              <br/>
+            </div>
+            <br/>
+          </div>
+          <p translate>
+            <br/>
+            <span translate>
+              WindowsOSを搭載したデスクトップPCやSurface Bookを含むノートPCをはじめ、少数ですが、iMacや最新のMacBook ProなどのMacOSも配置しています。また、作業効率向上のため、多数のディスプレイを用意しています。最近はiPadなどのタブレットも導入しました。
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" bsModal #detailModal2="bs-modal" [config]="{backdrop: 'true'}"
+       tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title pull-left" translate>Equipments(周辺機器等)</h4>
+          <button type="button" class="close pull-right" aria-label="Close" (click)="detailModal2.hide()">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <div fxLayout="row" fxLayout.xs="column" fxLayout.sm="column" fxFlex class="contentResp">
+              <div class="blocks" fxFlex>
+                <img src="assets/img/env/tv.jpg" width="200px" height="160px">
+              </div>
+              <br/>
+              <div class="blocks" fxFlex>
+                <img src="assets/img/env/print3D.jpg" width="200px" height="160px">
+              </div>
+              <br/>
+            </div>
+            <br/>
+          </div>
+          <p translate>
+            <br/>
+            <span translate>
+              岸研究室には、PC周辺機器を含め様々な機器が充実しています。大型TVをはじめ、3DプリンタやNAS、Apple TV、ワイヤレスディスプレイアダプターも用意しています。
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" bsModal #detailModal3="bs-modal" [config]="{backdrop: 'true'}"
+       tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title pull-left" translate>Books(書籍)</h4>
+          <button type="button" class="close pull-right" aria-label="Close" (click)="detailModal3.hide()">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <div fxLayout="row" fxLayout.xs="column" fxLayout.sm="column" fxFlex class="contentResp">
+              <div class="blocks" fxFlex>
+                <img src="assets/img/env/iotbooks.jpg" width="200px" height="160px">
+              </div>
+              <br/>
+              <div class="blocks" fxFlex>
+                <img src="assets/img/env/multibooks.jpg" width="200px" height="160px">
+              </div>
+              <br/>
+            </div>
+            <br/>
+          </div>
+          <p translate>
+            <br/>
+            <span translate>
+              情報システムやソフトウェア工学関連の書籍をはじめ、プログラミング入門書からO'Reillyの専門書まで技術書が大変充実しています。
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" bsModal #detailModal4="bs-modal" [config]="{backdrop: 'true'}"
+       tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title pull-left" translate>Others(その他)</h4>
+          <button type="button" class="close pull-right" aria-label="Close" (click)="detailModal4.hide()">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <div fxLayout="row" fxLayout.xs="column" fxLayout.sm="column" fxFlex class="contentResp">
+              <div class="blocks" fxFlex>
+                <img src="assets/img/env/cleaner.jpg" width="200px" height="160px">
+              </div>
+              <br/>
+              <div class="blocks" fxFlex>
+                <img src="assets/img/env/coffee.jpg" width="200px" height="160px">
+              </div>
+              <br/>
+            </div>
+            <br/>
+          </div>
+          <p translate>
+            <br/>
+            <span translate>
+              加湿・空気清浄機やコーヒーメーカー、冷蔵庫、電子レンジに加えて、温度調整と自動保温を兼ね添えたスマートケトルなどまで充実した備品を用意しております。
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <br/><br/><br/>
+

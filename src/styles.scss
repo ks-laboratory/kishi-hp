@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+
+// custom import
+// @import "assets/styles/_variables";
+
+body {
+  font-family: Lato, "Noto Sans JP", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 767px){
+  .container {
+    h4 {
+      font-size: 98%;
+    }
+    h5, span, p, a {
+      font-size: 95%;
+    }
+    li{
+      font-size: 90%;
+    }
+  }
+  .modal-content {
+    h5, span, p, a, li {
+      font-size: 95%;
+    }
+    h4 {
+      font-size: 98%;
+    }
+  }
+}
