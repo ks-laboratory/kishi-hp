@@ -2,12 +2,10 @@ import { DeviceService } from './shared/device.service';
 import { DataService } from './shared/data.service';
 
 import { Component, OnInit } from '@angular/core';
-// import { Ng2DeviceService } from 'ng2-device-detector';
 import { ViewEncapsulation } from '@angular/core';
 import { Router, NavigationEnd, ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
 import { TranslateService } from '@ngx-translate/core';
-// import { environment } from '../environments/environment';
 import { Subscription } from 'rxjs/Subscription';
 
 
@@ -19,26 +17,20 @@ import { Subscription } from 'rxjs/Subscription';
 })
 export class AppComponent implements OnInit {
   title = 'kishi-lab';
-  // deviceInfo = null;
   isMobile = false;
   nowlocationpath: string;
   location: Location;
-  // languages = environment.languages;
-  // currentLang: string = environment.defaultLang;
   currentLang: string
   subscription: Subscription;
 
 
   constructor(
-    // private deviceService: Ng2DeviceService,
     private router: Router,
     location: Location,
     private translate: TranslateService,
     private dataService: DataService,
     private deviceService: DeviceService
   ) {
-    // this.isMobile = deviceService.isMobile();
-    // nowlocationpath = location.path();
     this.location = location;
 
     this.subscription = this.dataService.data.subscribe(data => {

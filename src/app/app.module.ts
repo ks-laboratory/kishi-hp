@@ -8,7 +8,6 @@ import { NgModule, Provider } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
-// import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { Angular2FontawesomeModule } from 'angular2-fontawesome/angular2-fontawesome'
 import { FlexLayoutModule } from '@angular/flex-layout';
 
@@ -34,7 +33,7 @@ import { ThesisComponent } from './thesis/thesis.component';
 import { ThesisService } from './thesis.service';
 import { ActivityDetailsComponent } from './activity-details/activity-details.component';
 import { NewsComponent } from './news/news.component';
-// import { HttpClient } from 'selenium-webdriver/http';
+
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
@@ -77,7 +76,6 @@ export function createTranslateLoader(http: HttpClient) {
     TooltipModule.forRoot(),
     Ng2DeviceDetectorModule.forRoot(),
     ModalModule.forRoot(),
-    // AngularFontAwesomeModule,
     Angular2FontawesomeModule,
     FlexLayoutModule,
     HttpClientModule,

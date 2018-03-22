@@ -14,7 +14,7 @@ import { TranslateService } from '@ngx-translate/core';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'],
   providers: [
-    { provide: CarouselConfig, useValue: { interval: 3000, noPause: true, showIndicators: true } }
+    { provide: CarouselConfig, useValue: { interval: 3500, noPause: true, showIndicators: true } }
   ]
 })
 export class HomeComponent implements OnInit, OnDestroy {
