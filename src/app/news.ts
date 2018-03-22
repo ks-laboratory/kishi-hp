@@ -14,30 +14,23 @@ export const NEWS: {date: Date, title: string, en_title: string,
     en_title: 'Large scale update of Kishi lab\'s web site.',
     abstract: 'この岸研究室のホームページをAngularを用いたモダンなSPAに一新しました。',
     en_abstract: 'We renewed the website of Kishi laboratory to modern SPA using Angular framework.',
-    detail: `岸研究室の本ホームページのデザインやコンテンツ、内部的には実装アーキテクチャ等を大幅に更新しました。
-    技術スタックは、従来はJavaScriptライブラリのjQueryなどを主に用いていましたが、
-    フロントエンドWebアプリケーションフレームワークAngular(Angular2系,Angular5)を
-    用いたモダンなSingle-Page Application(SPA)に一新しました。ぜひご覧ください。`,
+    detail: `岸研究室の本ホームページのデザインやコンテンツ等を大幅に更新しました。
+    内部的な技術スタックは、従来はJavaScriptライブラリのjQueryなどを主に用いていましたが、
+    フレームワークAngular(Angular2系,Angular5)を用いたモダンなSingle-Page Application(SPA)に一新しました。
+    スマートフォン対応もしておりますので、ぜひお好きなデバイスでご覧ください。`,
     img_url: null,
   },
   {
     date: new Date('2018-03-15'),
     title: '情報処理学会第80回全国大会にてM1,M2の6名が発表、張が受賞',
     en_title: 'At the 80th National Convention of IPSJ, six people M1 and M2 presented.',
-    abstract: '3/13-15の全国大会でYUAN,徐,中村,矢島(M1),木村,張(M2)が発表しました。',
+    abstract: '3/13-15の全国大会でエン,徐,中村,矢島(M1),木村,張(M2)が発表しました。M2の張が学生奨励賞を受賞しました。',
     en_abstract: `Yuen, Xu, Nakamura, Yajima (M1), Kimura and Zhang (M2) presented at
      the 80th National Convention of IPSJ held at 3 /13-15.`,
     detail: `2018/3/13(Tue.)〜15(Thu.)、早稲田大学西早稲田キャンパスにて開催された
-    情報処理学会 第80回全国大会で、岸研究室から、
-    木村「貢献度を用いた共通ゴール判別手法の提案」,
-    張「MDAアプローチを適用したスマートフォン・アプリケーション・プロトタイプ自動生成手法」(M2)、
-    YUAN「多目的最適化手法を用いたテストケース優先度決定手法」,
-    徐「SSNオントロジに基づくエッジ側での効率的なIoTデータフィルタリング手法」,
-    中村「IoTシステムのゲートウェイにおける実行履歴を利用した運用プロファイル生成手法」,
-    矢島「IoTにおけるエッジ側アクセス規制のセキュリティ検証」(M1)が発表しました。
-    M2の張カンウが「学生奨励賞」を受賞しました。
-    また、今回は早稲田大学開催ということもあり、岸研究室B3〜M2まで沢山の岸研究室メンバー
-    が運営のお手伝いのアルバイトを行いました。`,
+    情報処理学会 第80回全国大会で、岸研究室から木村,張(M2)、YUAN,徐,中村,矢島(M1)が発表しました。
+    M2の張カンウの「MDAアプローチを適用したスマートフォン・アプリケーション・プロトタイプ自動生成手法」が「学生奨励賞」を受賞しました。
+    また、今回は早稲田大学開催ということもあり、岸研究室B3〜M2まで沢山の岸研究室メンバーが運営のお手伝いのアルバイトを行いました。`,
     img_url: 'assets/img/news/news20180318.jpg',
   },
   {
@@ -138,13 +131,9 @@ export const NEWS: {date: Date, title: string, en_title: string,
     en_abstract: `Otake, Sakurai (M2), Oshima, Kimura and Zhang (M1)
      made a presentation at the 79th National Convention of IPSJ held on 3/16-18. Additionally, Sakurai and Oshima received the award.`,
     detail: `2017/3/16(Thu.)〜18(Sat.)、名古屋大学にて開催された
-    情報処理学会 第79回全国大会で、岸研究室から、
-    大竹「BLE接続による柔軟なセンサ連携手法の提案」,
-    櫻井「ソフトウェアの更新差分情報を用いたテストケース生成手法」(M2)、
-    大嶋「Ruby on Railsを対象としたモデル検査による画面遷移検証」,
-    木村「テスト順序を考慮したペアワイズ法によるテストケース生成手法」,
-    張「スマートフォン特有の操作性に注目したGUIのモデル駆動開発手法」,
-    が発表しました。M2の櫻井佳樹とM1の大嶋乃斗が「学生奨励賞」を受賞しました。`,
+    情報処理学会 第79回全国大会で、岸研究室から、大竹,櫻井(M2)、大嶋,木村,張(M1)が発表しました。
+    M2の櫻井佳樹「ソフトウェアの更新差分情報を用いたテストケース生成手法」とM1の大嶋乃斗「Ruby on Railsを対象としたモデル検査による画面遷移検証」
+    の2人が「学生奨励賞」を受賞しました。`,
     img_url: null,
   },
   {

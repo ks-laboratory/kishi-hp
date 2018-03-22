@@ -12,7 +12,4 @@ export class DeviceService {
     this.deviceSource.next(deviceService.isMobile());
   }
 
-  // setDevice(isMobile) {
-  //     this.deviceSource.next(isMobile);
-  // }
 }
