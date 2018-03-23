@@ -99,11 +99,6 @@ export class AppComponent implements OnInit {
     return (dest == this.location.path());
   }
 
-  setDescription(description: string) {
-    this.meta.removeTag('name="description"');
-    this.meta.addTag({name: 'description', content: description});
-  }
-
   setTitle(title: string) {
     this.title.setTitle(title);
   }
