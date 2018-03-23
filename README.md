@@ -41,7 +41,7 @@ Angular: 5.2.7
 
 ### Setting the project
 ```
-$ git clone https://github.com/Knaito163/ks-hp.git
+$ git clone https://github.com/ks-laboratory/kishi-hp.git
 $ cd ks-hp
 $ npm i
 ```

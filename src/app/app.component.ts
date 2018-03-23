@@ -8,6 +8,7 @@ import { Location } from '@angular/common';
 import { TranslateService } from '@ngx-translate/core';
 import { Subscription } from 'rxjs/Subscription';
 
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-root',
@@ -16,20 +17,19 @@ import { Subscription } from 'rxjs/Subscription';
   encapsulation: ViewEncapsulation.None,
 })
 export class AppComponent implements OnInit {
-  title = 'kishi-lab';
   isMobile = false;
   nowlocationpath: string;
   location: Location;
   currentLang: string
   subscription: Subscription;
 
-
   constructor(
     private router: Router,
     location: Location,
     private translate: TranslateService,
     private dataService: DataService,
-    private deviceService: DeviceService
+    private deviceService: DeviceService,
+    private title: Title
   ) {
     this.location = location;
 
@@ -53,6 +53,11 @@ export class AppComponent implements OnInit {
       }
       window.scrollTo(0, 0)
     });
+
+    // titleとdescription追加
+    // this.setDescription(this.description);
+    this.setTitle('早稲田大学 岸研究室 ソフトウェア工学 - Waseda univ. Kishi-Lab Software Engineering -');
+
   }
 
   clickLanTab(lang) {
@@ -62,7 +67,6 @@ export class AppComponent implements OnInit {
       this.dataService.setLang(lang);
     }
   }
-
 
   clickTab(dest: string): void {
     // Ideal...
@@ -93,6 +97,15 @@ export class AppComponent implements OnInit {
 
   isActive(dest: string): boolean {
     return (dest == this.location.path());
+  }
+
+  setDescription(description: string) {
+    this.meta.removeTag('name="description"');
+    this.meta.addTag({name: 'description', content: description});
+  }
+
+  setTitle(title: string) {
+    this.title.setTitle(title);
   }
 
 }
