@@ -1,19 +1,39 @@
-.blocks{
+.blocks {
   text-align: center;
 }
 
-.blocks p{
+.blocks p {
   text-align: left;
   text-align: center;
 }
-.blocks h3{
+.blocks h3 {
   font-weight: bold;
 }
 
-.card{
+.card {
   max-width: 60%;
   text-align: center;
   margin: 0 auto;
 }
 
+.card-body {
+  background-color: rgb(255, 255, 255);
+}
 
+.interview-text {
+  font-size: 90%;
+}
+
+div.student-card {
+  border-color: white;
+}
+
+img.circle {
+  width: 180px;
+  height: 180px;
+  border-radius: 180px;
+  -webkit-border-radius: 180px;
+  -moz-border-radius: 180px;
+  text-align: center;
+  margin-bottom: 15px;
+}
