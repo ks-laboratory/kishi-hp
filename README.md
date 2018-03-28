@@ -5,10 +5,10 @@
 ## Build and Run
 
 ### Prerequisites
-- [Node.js](https://nodejs.org/en/): v6.11.4
-- [npm](https://www.npmjs.com/): 5.7.1
+- [Node.js](https://nodejs.org/en/): v6.13.1
+- [npm](https://www.npmjs.com/): 5.8.0
 - [Angular CLI](https://github.com/angular/angular-cli): 1.7.2
-- [Angular](https://angular-ja.firebaseapp.com/): 5.2.7
+- [Angular](https://angular-ja.firebaseapp.com/): 5.2.9
 - [git](https://git-scm.com/)
 
 ### Our lab development environment (for reference)
@@ -20,8 +20,9 @@
 
 ##### Example of prerequisite installation
 ```
-$ nodebrew install-binary v6.11.4
-$ nodebrew use v6.11.4
+$ nodebrew install-binary v6.13.1
+$ nodebrew use v6.13.1
+$ npm install -g npm@5.8.0
 $ npm install -g @angular/cli@1.7.2
 ```
 
@@ -42,7 +43,7 @@ Angular: 5.2.9
 ### Setting the project
 ```
 $ git clone https://github.com/ks-laboratory/kishi-hp.git
-$ cd ks-hp
+$ cd kishi-hp
 $ npm i
 ```
 
