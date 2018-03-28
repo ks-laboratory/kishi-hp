@@ -28,14 +28,14 @@ $ npm install -g @angular/cli@1.7.2
 ##### Check Version
 ```
 $ node -v
-v6.11.4
+v6.13.1
 $ npm -v
-5.7.1
+5.8.0
 $ ng -v
 ...
 Angular CLI: 1.7.2
 ...
-Angular: 5.2.7
+Angular: 5.2.9
 ...
 ```
 
