@@ -3,11 +3,24 @@
 // 上が最新
 
 // img_urlは"assets/img/about/message_kishi.png"のようなassetsからの形式で記述
-// 載せる写真がない場合はnullを設定
+// 写真はassets/img/news/*に入れること
+// newsの写真は500KB以下を目安に。それ以上の場合はMacのプレビュー等でリサイズしてから入れる
+// 載せる写真がない場合はimg_urlにnullを設定
 
 export const NEWS: {date: Date, title: string, en_title: string,
   abstract: string, en_abstract: string, detail: string, img_url: string}[] = [
   // 最新はここの上に追加していく
+  {
+    date: new Date('2018-03-24'),
+    title: '2017年度卒業生(2018年3月卒) ご卒業おめでとうございます！',
+    en_title: 'Congratulations on graduation! (Graduated from March 24th 2018)',
+    abstract: '3/24に2017年度卒業生(2018年3月卒)を祝う追い出しコンパを開催しました。',
+    en_abstract: `We held a party to celebrate graduates of 2017 (graduated from March 2018) on March 24.`,
+    detail: `2018/3/24に2017年度卒業生(2018年3月卒)を祝う追い出しコンパを新宿ワシントンホテルにて開催しました。
+    卒業生の方、今まで本当にありがとうございました。
+    ご卒業おめでとうございます！`,
+    img_url: 'assets/img/news/news20180324.jpg',
+  },
   {
     date: new Date('2018-03-20'),
     title: '岸研究室HPの大幅アップデート',
