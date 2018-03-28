@@ -13,7 +13,7 @@
 
 ### Our lab development environment (for reference)
 - OS: MacOS
-- Node.js version manager: [nodebrew](https://github.com/hokaccha/nodebrew)
+- Node.js version manager: [nodebrew](https://github.com/hokaccha/nodebrew) (Windows -> [nodist](https://github.com/marcelklehr/nodist))
 - Editor: [Visual Studio Code(VSCode)](https://code.visualstudio.com/)
 - Deployment: FTP Server
 - Deployment GUI Tool: [Cyberduck](https://cyberduck.io/)
