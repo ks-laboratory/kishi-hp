@@ -2,7 +2,6 @@ import { DeviceService } from './shared/device.service';
 import { DataService } from './shared/data.service';
 import { NewsService } from './news.service';
 import { PublicationService } from './publication.service';
-import { ObService } from './ob.service';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, Provider } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -26,7 +25,7 @@ import { ContactComponent } from './contact/contact.component';
 import { ProfessorComponent } from './professor/professor.component';
 import { StudentComponent } from './student/student.component';
 import { StudentService } from './student.service';
-import { ObstudentComponent } from './obstudent/obstudent.component';
+
 import { KeyvaluesPipe } from './keyvalues.pipe';
 import { ConsoleLogPipe } from './console-log.pipe';
 import { ThesisComponent } from './thesis/thesis.component';
@@ -56,7 +55,6 @@ export function createTranslateLoader(http: HttpClient) {
     ContactComponent,
     ProfessorComponent,
     StudentComponent,
-    ObstudentComponent,
     KeyvaluesPipe,
     ConsoleLogPipe,
     ThesisComponent,
@@ -89,7 +87,6 @@ export function createTranslateLoader(http: HttpClient) {
   ],
   providers: [
     StudentService,
-    ObService,
     PublicationService,
     ThesisService,
     NewsService,
