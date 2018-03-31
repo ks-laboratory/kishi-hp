@@ -3,6 +3,8 @@
 // member情報はここをedit
 export const STUDENTS: any = {
   b3: [
+    '18年9月に新3年生が',
+    '研究室に配属予定'
   ],
   b4: [
     '井村悠成',
