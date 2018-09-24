@@ -11,6 +11,17 @@ export const NEWS: {date: Date, title: string, en_title: string,
   abstract: string, en_abstract: string, detail: string, img_url: string}[] = [
   // 最新はここの上に追加していく
   {
+    date: new Date('2018-08-23'),
+    title: '軽井沢セミナーハウスにて夏合宿',
+    en_title: 'We held summer camp in Honjo seminar house.',
+    abstract: '8/21-23で、軽井沢セミナーハウスにて、夏合宿を行いました。',
+    en_abstract: `We held summer camp in Honjo seminar house at 8/9-11.`,
+    detail: `2017/8/21(Tue.)〜23(Thu.)、軽井沢セミナーハウスにて、夏合宿を行いました。
+    今回の合宿では研究内容の理解共有や進捗発表のほか、Arudinowo用いたIoTアプリの製作
+    M1による授業なども行いました。夜には、バーベキューや飲み会なども開催しました。`,
+    img_url: 'assets/img/news/summer_camp2018.jpg',
+  },
+  {
     date: new Date('2018-03-24'),
     title: '2017年度卒業生(2018年3月卒) ご卒業おめでとうございます！',
     en_title: 'Congratulations on graduation! (Graduated from March 24th 2018)',
