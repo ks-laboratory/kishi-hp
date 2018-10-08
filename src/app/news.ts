@@ -13,12 +13,12 @@ export const NEWS: {date: Date, title: string, en_title: string,
   {
     date: new Date('2018-08-23'),
     title: '軽井沢セミナーハウスにて夏合宿',
-    en_title: 'We held summer camp in Honjo seminar house.',
+    en_title: 'We held summer camp in Karuizawa seminar house.',
     abstract: '8/21-23で、軽井沢セミナーハウスにて、夏合宿を行いました。',
     en_abstract: `We held summer camp in Honjo seminar house at 8/9-11.`,
     detail: `2017/8/21(Tue.)〜23(Thu.)、軽井沢セミナーハウスにて、夏合宿を行いました。
-    今回の合宿では研究内容の理解共有や進捗発表のほか、Arudinowo用いたIoTアプリの製作
-    M1による授業なども行いました。夜には、バーベキューや飲み会なども開催しました。`,
+    今回の合宿では研究内容の理解共有や進捗発表のほか、学部3年〜修士2年が3班に別れ、「切替スイッチ」をテーマにアプリを製作・発表を行いました。
+    修士1年はソフトウェア工学に関係するテーマで授業を行いました。夜には、バーベキューや宴会を開催し、親睦を深めました。`,
     img_url: 'assets/img/news/summer_camp2018.jpg',
   },
   {
