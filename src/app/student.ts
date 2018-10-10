@@ -1,7 +1,6 @@
 // member情報はここをedit
 export const STUDENTS: any = {
   b3: [
-
       '磯貝日々輝',
       '小田切伶旺',
       '上司千尋',
