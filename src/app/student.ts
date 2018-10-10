@@ -1,5 +1,3 @@
-// 注意：OB卒業生は ob.ts の該当年度に必ず移すこと！
-
 // member情報はここをedit
 export const STUDENTS: any = {
   b3: [

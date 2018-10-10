@@ -39,7 +39,7 @@ export const NEWS: {date: Date, title: string, en_title: string,
     abstract: '3/24に2017年度卒業生(2018年3月卒)を祝う追い出しコンパを開催しました。',
     en_abstract: `We held a party to celebrate graduates of 2017 (graduated from March 2018) on March 24.`,
     detail: `2018/3/24に2017年度卒業生(2018年3月卒)を祝う追い出しコンパを新宿ワシントンホテルにて開催しました。
-    卒業生の方、今まで本当にありがとうございました。
+    卒業生の方々、今まで本当にありがとうございました。
     ご卒業おめでとうございます！`,
     img_url: 'assets/img/news/news20180324.jpg',
   },
@@ -47,13 +47,13 @@ export const NEWS: {date: Date, title: string, en_title: string,
     date: new Date('2018-03-20'),
     title: '岸研究室HPの大幅アップデート',
     en_title: 'Large scale update of Kishi lab\'s web site.',
-    abstract: 'この岸研究室のホームページをAngularを用いたモダンなSPAに一新しました。',
-    en_abstract: 'We renewed the website of Kishi laboratory to modern SPA using Angular framework.',
+    abstract: 'この岸研究室のホームページをAngularを用いたモダンなSPAに一新。スマートフォンにも対応しました。',
+    en_abstract: 'We renewed the website of this laboratory to modern SPA using Angular. We also adapted it for browsing by smartphones.',
     detail: `岸研究室の本ホームページのデザインやコンテンツ等を大幅に更新しました。
     内部的な技術スタックは、従来はJavaScriptライブラリのjQueryなどを主に用いていましたが、
     フレームワークAngular(Angular2系,Angular5)を用いたモダンなSingle-Page Application(SPA)に一新しました。
     スマートフォン対応もしておりますので、ぜひお好きなデバイスでご覧ください。`,
-    img_url: null,
+    img_url: 'assets/img/news/news20180320.jpg',
   },
   {
     date: new Date('2018-03-15'),
