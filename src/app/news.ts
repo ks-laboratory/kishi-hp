@@ -11,6 +11,17 @@ export const NEWS: {date: Date, title: string, en_title: string,
   abstract: string, en_abstract: string, detail: string, img_url: string}[] = [
   // 最新はここの上に追加していく
   {
+    date: new Date('2018-08-23'),
+    title: '軽井沢セミナーハウスにて夏合宿',
+    en_title: 'We held summer camp in Karuizawa seminar house.',
+    abstract: '8/21-23で、軽井沢セミナーハウスにて、夏合宿を行いました。',
+    en_abstract: `We held summer camp in Karuizawa seminar house at Aug. 21-23.`,
+    detail: `2017/8/21(Tue.)〜23(Thu.)、軽井沢セミナーハウスにて、夏合宿を行いました。
+    今回の合宿では研究内容の理解共有や進捗発表のほか、学部3年〜修士2年が3班に別れ、「切替スイッチ」をテーマにアプリを製作・発表しました。
+    修士1年はソフトウェア工学に関係するテーマで授業を行いました。夜には、バーベキューや宴会を開催し、親睦を深めました。`,
+    img_url: 'assets/img/news/summer_camp2018.jpg',
+  },
+  {
     date: new Date('2018-03-24'),
     title: '2017年度卒業生(2018年3月卒) ご卒業おめでとうございます！',
     en_title: 'Congratulations on graduation! (Graduated from March 24th 2018)',
