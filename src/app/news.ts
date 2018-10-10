@@ -22,6 +22,17 @@ export const NEWS: {date: Date, title: string, en_title: string,
     img_url: 'assets/img/news/summer_camp2018.jpg',
   },
   {
+    date: new Date('2018-07-03'),
+    title: '国際会議SEKE2018にて、2018年卒業生の大嶋が発表',
+    en_title: 'Naito Oshima presented at the 30th SEKE 2018',
+    abstract: '米サンフランシスコ開催の国際会議SEKE2018にて2018年卒業生の大嶋乃斗が発表しました。',
+    en_abstract: `Naito OSHIMA presented the paper at the 30th SEKE 2018
+       (Software Engineering & Knowledge Engineering) held on 7/1-3.
+       【Naito Oshima, Tomoji Kishi, "Model Checking Method for SPA Page Transition Based on Component-based Framework," SEKE2018, pp.675-680】`,
+    detail: `2018/7/1(Sun.)〜3(Tue.)、San Francisco の Redwood City にて開催された国際会議Software Engineering & Knowledge Engineering (SEKE2018) で、2018年卒業生の大嶋乃斗が 「Model Checking Method for SPA Page Transition Based on Component-based Framework」を発表しました。 【Naito Oshima, Tomoji Kishi, "Model Checking Method for SPA Page Transition Based on Component-based Framework," SEKE2018, pp.675-680】`,
+    img_url: null,
+  },
+  {
     date: new Date('2018-03-24'),
     title: '2017年度卒業生(2018年3月卒) ご卒業おめでとうございます！',
     en_title: 'Congratulations on graduation! (Graduated from March 24th 2018)',
