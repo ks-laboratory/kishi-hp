@@ -16,10 +16,22 @@ export const NEWS: {date: Date, title: string, en_title: string,
     en_title: 'We held summer camp in Karuizawa seminar house.',
     abstract: '8/21-23で、軽井沢セミナーハウスにて、夏合宿を行いました。',
     en_abstract: `We held summer camp in Karuizawa seminar house at Aug. 21-23.`,
-    detail: `2017/8/21(Tue.)〜23(Thu.)、軽井沢セミナーハウスにて、夏合宿を行いました。
+    detail: `2018/8/21(Tue.)〜23(Thu.)、軽井沢セミナーハウスにて、夏合宿を行いました。
     今回の合宿では研究内容の理解共有や進捗発表のほか、学部3年〜修士2年が3班に別れ、「切替スイッチ」をテーマにアプリを製作・発表しました。
     修士1年はソフトウェア工学に関係するテーマで授業を行いました。夜には、バーベキューや宴会を開催し、親睦を深めました。`,
     img_url: 'assets/img/news/summer_camp2018.jpg',
+  },
+  {
+    date: new Date('2018-08-07'),
+    title: '今年も早稲田理工主催のユニラブに岸研究室として出展',
+    en_title: 'Kishi Laboratory exhibited at the University Laboratory.',
+    abstract: '8/7に開催の早稲田理工主催のユニラブにて小学生向けのプログラミング教室を出展しました。',
+    en_abstract: `Kishi Laboratory exhibited at the University Laboratory at Aug. 07.`,
+    detail: `2018/8/07(Tue.)、早稲田大学西早稲田キャンパスで毎年開催されている
+    早稲田理工学術院主催のユニラブ(University Lablatory)に、プログラミング教育の分野で、
+    岸研究室として2度目の出展を行い、沢山の小学生に楽しんでいただきました。
+    ビジュアルプログラミングScratchを用いて、迷路作り教室を実施しました。`,
+    img_url: 'assets/img/news/160A1403.jpg',
   },
   {
     date: new Date('2018-07-03'),
