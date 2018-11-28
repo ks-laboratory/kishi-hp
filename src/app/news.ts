@@ -11,6 +11,15 @@ export const NEWS: {date: Date, title: string, en_title: string,
   abstract: string, en_abstract: string, detail: string, img_url: string}[] = [
   // 最新はここの上に追加していく
   {
+    date: new Date('2018-10-03'),
+    title: 'B3が新たに8名加入',
+    en_title: '8 new members joined.',
+    abstract: '2018/10/3に新たに8名のB3が加わりました。',
+    en_abstract: `8 new members joined at Oct 3.`,
+    detail: `全体ゼミの後にはB3歓迎会が催され、B3と親睦を深めました。`,
+    img_url: null,
+  },
+  {
     date: new Date('2018-08-23'),
     title: '軽井沢セミナーハウスにて夏合宿',
     en_title: 'We held summer camp in Karuizawa seminar house.',
