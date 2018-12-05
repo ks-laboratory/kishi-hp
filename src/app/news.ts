@@ -11,6 +11,15 @@ export const NEWS: {date: Date, title: string, en_title: string,
   abstract: string, en_abstract: string, detail: string, img_url: string}[] = [
   // 最新はここの上に追加していく
   {
+    date: new Date('2018'),
+    title: '北陸先端科学技術大学院大学（JAIST）と合同で先端システムに関するサマーワークショップを開催',
+    en_title: 'We held a summer workshop on advanced systems joinstly with JAIST',
+    abstract: '9/22-24に北陸先端科学技術(JAIST)と合同で先端システムに関するサマーワークショップを開催しました。',
+    en_abstract: `We held a summer workshop on advanced systems joinstly with JAIST at Sep 22-24.`,
+    detail: `9/22-24に北陸先端科学技術(JAIST)と合同で先端システムに関するサマーワークショップを開催しました。`,
+    img_url: null,
+  },
+  {
     date: new Date('2018-10-03'),
     title: 'B3が新たに8名加入',
     en_title: '8 new members joined.',
