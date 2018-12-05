@@ -11,6 +11,29 @@ export const NEWS: {date: Date, title: string, en_title: string,
   abstract: string, en_abstract: string, detail: string, img_url: string}[] = [
   // 最新はここの上に追加していく
   {
+    date: new Date('2018-11-24'),
+    title: '本庄セミナーハウスにて秋合宿',
+    en_title: 'We conducted the autumn camp in Honjo seminar house.',
+    abstract: '11/24-25で、本庄セミナーハウスにて、秋合宿を行いました。',
+    en_abstract: `The autumn camp held at the Honjo seminar house on 11/24-25.`,
+    detail: `11/24(Sat.),25(Sun.)、本庄セミナーハウスにて、秋合宿を行いました。
+    9月から新しく岸研究室に入ったB3を交えての初めての合宿でした。
+    ３つのグループに分かれ、B4,M2が卒論・修論の研究内容の理解共有を行いました。
+    B3もProgrammableなRobotic BallであるSpheroを用いたお題の発表を行い、
+    学生と教授の投票によるコンテストを開催しました。
+    新しく加入したB3と親睦を深める良い機会となりました。`,
+    img_url: 'assets/img/news/news20181128.jpg',
+  },
+  {
+    date: new Date('2018-09-22'),
+    title: '北陸先端科学技術大学院大学（JAIST）と合同で先端システムに関するサマーワークショップを開催',
+    en_title: 'We held a summer workshop on advanced systems joinstly with JAIST',
+    abstract: '9/22-24に北陸先端科学技術(JAIST)と合同で先端システムに関するサマーワークショップを開催しました。',
+    en_abstract: `We held a summer workshop on advanced systems joinstly with JAIST at Sep 22-24.`,
+    detail: `9/22-24に北陸先端科学技術(JAIST)と合同で先端システムに関するサマーワークショップを開催しました。`,
+    img_url: null,
+  },
+  {
     date: new Date('2018-10-03'),
     title: 'B3が新たに8名加入',
     en_title: '8 new members joined.',
