@@ -22,7 +22,7 @@ export const NEWS: {date: Date, title: string, en_title: string,
     B3もProgrammableなRobotic BallであるSpheroを用いたお題の発表を行い、
     学生と教授の投票によるコンテストを開催しました。
     新しく加入したB3と親睦を深める良い機会となりました。`,
-    img_url: 'assets/img/news/news20181128.jpg',
+    img_url: 'assets/img/news/news20181124.jpeg',
   },
   {
     date: new Date('2018-09-22'),
