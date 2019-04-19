@@ -12,7 +12,7 @@ export const NEWS: {date: Date, title: string, en_title: string,
     {
     date: new Date('2019-03-26'),
     title: '2018年度卒業生(2019年3月卒) ご卒業おめでとうございます！',
-    en_title: 'Congratulations on graduation! (Graduated from March 24th 2018)',
+    en_title: 'Congratulations on graduation! (Graduated from March 26th 2019)',
     abstract: '3/26に2018年度卒業生(2019年3月卒)を祝う追い出しコンパを開催しました。',
     en_abstract: `We held a party to celebrate graduates of 2018 (graduated from March 2019) on March 26.`,
     detail: `2019/3/26に2018年度卒業生(2019年3月卒)を祝う追い出しコンパをバトゥール東京にて開催しました。
