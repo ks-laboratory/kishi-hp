@@ -9,6 +9,17 @@
 
 export const NEWS: {date: Date, title: string, en_title: string,
   abstract: string, en_abstract: string, detail: string, img_url: string}[] = [
+    {
+    date: new Date('2019-03-26'),
+    title: '2018年度卒業生(2019年3月卒) ご卒業おめでとうございます！',
+    en_title: 'Congratulations on graduation! (Graduated from March 26th 2019)',
+    abstract: '3/26に2018年度卒業生(2019年3月卒)を祝う追い出しコンパを開催しました。',
+    en_abstract: `We held a party to celebrate graduates of 2018 (graduated from March 2019) on March 26.`,
+    detail: `2019/3/26に2018年度卒業生(2019年3月卒)を祝う追い出しコンパをバトゥール東京にて開催しました。
+    卒業生の方々、今まで本当にありがとうございました。
+    ご卒業おめでとうございます！`,
+    img_url: 'assets/img/news/news20190326.JPG',
+    },
   // 最新はここの上に追加していく
   {
     date: new Date('2018-10-03'),
