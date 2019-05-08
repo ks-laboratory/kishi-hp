@@ -9,6 +9,7 @@
 
 export const NEWS: {date: Date, title: string, en_title: string,
   abstract: string, en_abstract: string, detail: string, img_url: string}[] = [
+// 最新はここの上に追加していく
     {
     date: new Date('2019-03-26'),
     title: '2018年度卒業生(2019年3月卒) ご卒業おめでとうございます！',
@@ -20,7 +21,16 @@ export const NEWS: {date: Date, title: string, en_title: string,
     ご卒業おめでとうございます！`,
     img_url: 'assets/img/news/news20190326.JPG',
     },
-  // 最新はここの上に追加していく
+  {
+    date: new Date('2019-02-21'),
+    title: 'IBM主催の「Master the Mainframe」にて、磯上が最優秀賞を受賞',
+    en_title: 'At the Master the Mainframe of IBM, Isogami is awarded.',
+    abstract: '2018年9月〜12月に開催されたIBM主催の「Master the Mainframe」にて、磯上が最優秀賞に選ばれました。',
+    en_abstract: `Yuti ISOGAMI won the contest at the Master the Mainframe of IBM held from September to December.`,
+    detail: `2018年9月〜12月に開催されたIBM主催の「Master the Mainframe」にて、磯上が最優秀賞に選ばれました。
+    このコンテストは大企業で使用される基幹システム「メインフレーム」のスキル習得および技術者の養成を目的として、世界中の学生を対象に毎年開催されています。`,
+    img_url: 'assets/img/news/news20190221.jpg',
+  },
   {
     date: new Date('2018-10-03'),
     title: 'B3が新たに8名加入',
