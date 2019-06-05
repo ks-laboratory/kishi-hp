@@ -43,6 +43,21 @@ export const NEWS: {date: Date, title: string, en_title: string,
     img_url: '/assets/img/news/news20181124.jpeg',
   },
   {
+    date: new Date('2018-11-08'),
+    title: '国際会議UEMCON 2018にて、2019年卒業生のシュが発表、Best Paper Awardを受賞',
+    en_title: 'Shu presented at the 9th UEMCON 2018',
+    abstract: '米ニューヨーク開催の国際会議UEMCON 2018にて、2019年卒業生のシュが発表し、Best Paper Awardを受賞',
+    en_abstract: `Shu presented the paper at the 9th UEMCON 2018
+       (Ubiquitous Computing, Electronics &
+        Mobile Communication Conference) held on 11/8-10.
+       【YunkangXu and TomojiKishi,
+       An Ontology-Based IoT Communication Data Reduction Method】`,
+    detail: `2018/11/8(Thu.)〜10(Sat.)、Columbia University, NY, USA.にて開催された国際会議The 9th IEEE Annual Ubiquitous Computing, Electronics &
+    Mobile Communication Conference (UEMCON 2018) で、2018年卒業生のシュが 「YunkangXu and TomojiKishi,
+    An Ontology-Based IoT Communication Data Reduction Method」を発表し、Best Paper Awardを受賞しました。`,
+    img_url: null,
+  },
+  {
     date: new Date('2018-10-03'),
     title: 'B3が新たに8名加入',
     en_title: '8 new members joined.',
