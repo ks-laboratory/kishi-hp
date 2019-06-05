@@ -32,6 +32,17 @@ export const NEWS: {date: Date, title: string, en_title: string,
     img_url: 'assets/img/news/news20190221.jpg',
   },
   {
+    date: new Date('2018-11-24'),
+    title: '本庄セミナーハウスにて秋合宿',
+    en_title: 'We held autumn camp in Honjo seminar house.',
+    abstract: '11/24-25で、本庄セミナーハウスにて、秋合宿を行いました。',
+    en_abstract: `We held autumn camp in Honjo seminar house at Nov. 24-25.`,
+    detail: `2018/11/24(Sat.)〜25(Sun.)、本庄セミナーハウスにて、秋合宿を行いました。
+    今回の合宿では学部3年に対しての研究内容共有や進捗発表のほか、学部3年が3班に分かれ、「Sphero」を使った発表を行いました。
+    夜には、宴会を開催し、親睦を深めました。`,
+    img_url: '/assets/img/news/news20181124.jpeg',
+  },
+  {
     date: new Date('2018-10-03'),
     title: 'B3が新たに8名加入',
     en_title: '8 new members joined.',
