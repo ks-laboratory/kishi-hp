@@ -10,6 +10,20 @@
 export const NEWS: {date: Date, title: string, en_title: string,
   abstract: string, en_abstract: string, detail: string, img_url: string}[] = [
 // 最新はここの上に追加していく
+{
+  date: new Date('2017-08-08'),
+  title: '早稲田理工主催のユニラブにて岸研究室として初出展',
+  en_title: 'Kishi Laboratory exhibite  at the University Laboratory.',
+  abstract: '8/7に開催の早稲田理工主催のユニラブにて小学生向けのプログラミング教室を出展',
+  en_abstract: `Kishi Laboratory exhibited programming classes for elementary school students
+  on August 7 at the University Lablatory sponsored by "Faculty of Science and Engineering, Waseda University".`,
+  detail: `2017/8/7(Tue.)、早稲田大学西早稲田キャンパスで毎年開催されている
+  早稲田理工学術院主催のユニラブ(University Lablatory)にて、昨年に引き続き、小中学生の科学実験教室「ユニラブ」に
+  プログラミング教育の分野で、岸研究室として出展を行い、沢山の小学生に楽しんでいただきました。
+  学生が中心となって企画し、小学3,4年生を対象に、ビジュアルプログラミングScratchを用いて、
+  「君もプログラマになれる！-自分だけのゲームを作ろう-」として、約2時間のゲーム作り教室を実施しました。`,
+  img_url: 'assets/img/news/news20190807.jpg',
+},
     {
     date: new Date('2019-03-26'),
     title: '2018年度卒業生(2019年3月卒) ご卒業おめでとうございます！',
