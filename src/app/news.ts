@@ -10,6 +10,17 @@
 export const NEWS: {date: Date, title: string, en_title: string,
   abstract: string, en_abstract: string, detail: string, img_url: string}[] = [
 // 最新はここの上に追加していく
+{
+date: new Date('2019-08-25'),
+title: '本庄セミナーハウスにて夏合宿',
+en_title: 'We held summer camp in Karuizawa seminar house.',
+abstract: '8/25-27で、本庄セミナーハウスにて、夏合宿を行いました。',
+en_abstract: `We held summer camp in Honjo seminar house at Aug. 21-23.`,
+detail: `2019/8/25(Sun.)〜27(Tus.)、本庄セミナーハウスにて、夏合宿を行いました。
+今回の合宿では研究内容の理解共有や進捗発表のほか、学部3年〜修士2年が3班に別れ、来年度以降のユニラブのテーマを考え、発表しました。
+修士1年はソフトウェア工学に関係するテーマで授業を行いました。夜には、バーベキューや宴会を開催し、親睦を深めました。`,
+img_url: 'assets/img/news/summer_camp2019.jpg',
+},
     {
     date: new Date('2019-08-07'),
     title: '早稲田理工主催のユニラブにて岸研究室として出展',
