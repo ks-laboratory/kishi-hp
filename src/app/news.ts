@@ -10,10 +10,21 @@
 export const NEWS: {date: Date, title: string, en_title: string,
   abstract: string, en_abstract: string, detail: string, img_url: string}[] = [
 // 最新はここの上に追加していく
+{
+  date: new Date('2019-08-25'),
+  title: '本庄セミナーハウスにて夏合宿',
+  en_title: 'We held summer camp in Honjo seminar house.',
+  abstract: '8/25-27で、本庄セミナーハウスにて、夏合宿を行いました。',
+  en_abstract: `We held summer camp in honjo seminar house at Aug. 25-27.`,
+  detail: `2019/8/25(Sun.)〜27(Tue.)、本庄セミナーハウスにて、夏合宿を行いました。
+  今回の合宿では研究内容の理解共有や進捗発表のほか、学部3年〜修士2年が3班に別れ、ユニラブの新たなアイディアを発表しました。
+  修士1年はソフトウェア工学に関係するテーマで授業を行いました。夜には、バーベキューや宴会を開催し、親睦を深めました。`,
+  img_url: 'assets/img/news/summer_camp2019.jpg',
+},
     {
     date: new Date('2019-08-07'),
     title: '早稲田理工主催のユニラブにて岸研究室として出展',
-    en_title: 'Kishi Laboratory exhibite  at the University Laboratory.',
+    en_title: 'Kishi Laboratory exhibite at the University Laboratory.',
     abstract: '8/7に開催の早稲田理工主催のユニラブにて小学生向けのプログラミング教室を出展',
     en_abstract: `Kishi Laboratory exhibited programming classes for elementary school students
     on August 7 at the University Lablatory sponsored by "Faculty of Science and Engineering, Waseda University".`,
