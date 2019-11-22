@@ -10,6 +10,27 @@
 export const NEWS: {date: Date, title: string, en_title: string,
   abstract: string, en_abstract: string, detail: string, img_url: string}[] = [
 // 最新はここの上に追加していく
+
+{
+  date: new Date('2019-09-21'),
+  title: '北陸先端大との合同合宿',
+  en_title: 'We held camp with JAIST',
+  abstract: '9/21-23、北陸先端大と合同で合宿を行いました。',
+  en_abstract: 'We held camp with JAIST at Sep. 21-23.',
+  detail: '2019/9/21(Sut.)~23(Mon.)、北陸先端大と合同で合宿を行いました。',
+  img_url: 'assets/img/news/JAISTcamp.JPG',
+},
+
+{
+  date: new Date('2019-08-29'),
+  title: '日本ソフトウェア科学会第36回大会にて磯上が発表',
+  en_title: 'Isogai presented at 36th Japan Software Science Society',
+  abstract: '8/29、日本ソフトウェア科学会第36回にて磯上雄人が発表しました。',
+  en_abstract: 'Isogai Yuto presented at 36th Japan Software Science Society at Aug. 29',
+  detail: '8/29、日本ソフトウェア科学会第36回にて磯上雄人が「Doc2Vecを利用したGUIテストクリプトのロケータ修正の提案」を発表しました。',
+  img_url: null,
+},
+
 {
   date: new Date('2019-08-25'),
   title: '本庄セミナーハウスにて夏合宿',
