@@ -12,6 +12,16 @@ export const NEWS: {date: Date, title: string, en_title: string,
 // 最新はここの上に追加していく
 
 {
+  date: new Date('2019-12-2'),/
+  title: 'APSEC 2019にて秋本が発表',
+  en_title: 'Akimoto presented at APSEC 2019',
+  abstract: '12月2-5日、マレーシアで開かれたAPSEC 2019 (The 26th Asia-Pacific Software Engineering Conference)にて秋本裕史が発表しました。',
+  en_abstract: 'Takahumi Akimmoto presented at APSEC 2019 (The 26th Asia-Pacific Software Engineering Conference) held in Malaysia at 2-5, Dec, 2019',
+  detail: '12月2-5日、マレーシアのプトラジャヤで開かれたAPSEC 2019 (The 26th Asia-Pacific Software Engineering Conference)にて秋本裕史が「A Prioritization Method for SPL Pairwise Testing based on User Profiles」を発表しました。',
+  img_url: 'assets/img/news/news20191202.jpg',
+},
+
+{
   date: new Date('2019-11-30'),
   title: 'IEEEで磯上がYoung Researcher Awardを受賞',
   en_title: 'At IEEE Computer Society, Isogami is awarded.',
@@ -19,7 +29,7 @@ export const NEWS: {date: Date, title: string, en_title: string,
   en_abstract: `Yuto ISOGAMI won the contest at IEEE Computer Society held on November 30,2019.`,
   detail: `2019/11/30、IEEE Computer Societyで磯上雄人が発表しました。
   M2の磯上の「Doc2Vecを利用したGUIテストクリプトのロケータ修正手法」が「IEEE Computer Society Japan Chapter FOSE Young Researcher Award」を受賞しました。`,
-  img_url: 'assets/img/news/IEEE20191130.jpg',
+  img_url: 'assets/img/news/news20191130.jpg',
 },
 {
   date: new Date('2019-09-21'),
