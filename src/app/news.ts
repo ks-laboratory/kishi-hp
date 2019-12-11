@@ -12,6 +12,16 @@ export const NEWS: {date: Date, title: string, en_title: string,
 // 最新はここの上に追加していく
 
 {
+  date: new Date('2019-11-30'),
+  title: 'IEEEで磯上がYoung Researcher Awardを受賞',
+  en_title: 'At IEEE Computer Society, Isogami is awarded.',
+  abstract: '11月30日、磯上がYoung Researcher Awardを受賞しました。',
+  en_abstract: `Yuto ISOGAMI won the contest at IEEE Computer Society held on November 30,2019.`,
+  detail: `2019/11/30、IEEE Computer Societyで磯上雄人が発表しました。
+  M2の磯上の「Doc2Vecを利用したGUIテストクリプトのロケータ修正手法」が「IEEE Computer Society Japan Chapter FOSE Young Researcher Award」を受賞しました。`,
+  img_url: 'assets/img/news/IEEE20191130.jpg',
+},
+{
   date: new Date('2019-09-21'),
   title: '北陸先端大との合同合宿',
   en_title: 'We held camp with JAIST',
@@ -22,7 +32,7 @@ export const NEWS: {date: Date, title: string, en_title: string,
 },
 
 {
-  date: new Date('2019-08-29'),
+  date: new Date('2019-08-29'),/
   title: '日本ソフトウェア科学会第36回大会にて磯上が発表',
   en_title: 'Isogai presented at 36th Japan Software Science Society',
   abstract: '8/29、日本ソフトウェア科学会第36回にて磯上雄人が発表しました。',
