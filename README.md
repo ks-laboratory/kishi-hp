@@ -1,14 +1,13 @@
 # LAB-HP
 - The Official Website for Software Engineering Laboratory of University in Japan.( [That Angular SPA Lab Site](http://www.kishi.mgmt.waseda.ac.jp) )
-- This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.2.
+- This project was generated with [Angular CLI](https://cli.angular.io/) version 8.3.23.
 
 ## Build and Run
 
 ### Prerequisites
-- [Node.js](https://nodejs.org/en/): v6.13.1
-- [npm](https://www.npmjs.com/): 5.8.0
-- [Angular CLI](https://github.com/angular/angular-cli): 1.7.2
-- [Angular](https://angular-ja.firebaseapp.com/): 5.2.9
+- [Node.js](https://nodejs.org/en/): v12.14.1
+- [npm](https://www.npmjs.com/): 6.13.4
+- [Angular CLI](https://github.com/angular/angular-cli): 8.3.23
 - [git](https://git-scm.com/)
 
 ### Our lab development environment (for reference)
@@ -20,23 +19,23 @@
 
 ##### Example of prerequisite installation
 ```
-$ nodebrew install-binary v6.13.1
-$ nodebrew use v6.13.1
-$ npm install -g npm@5.8.0
-$ npm install -g @angular/cli@1.7.2
+$ nodebrew install-binary v12.14.1
+$ nodebrew use v12.14.1
+$ npm install -g npm@6.13.4
+$ npm install -g @angular/cli@8.3.23
 ```
 
 ##### Check Version
 ```
 $ node -v
-v6.13.1
+v12.14.1
 $ npm -v
-5.8.0
+6.13.4
 $ ng -v
 ...
-Angular CLI: 1.7.2
+Angular CLI: 8.3.23
 ...
-Angular: 5.2.9
+Angular: 8.2.14
 ...
 ```
 

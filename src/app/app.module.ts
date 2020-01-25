@@ -14,7 +14,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { ButtonsModule, CarouselModule, TabsModule, AccordionModule, TooltipModule, ModalModule } from 'ngx-bootstrap';
-import { Ng2DeviceDetectorModule } from 'ng2-device-detector';
+import { DeviceDetectorModule } from 'ngx-device-detector';
 
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
@@ -72,7 +72,7 @@ export function createTranslateLoader(http: HttpClient) {
     CarouselModule.forRoot(),
     AccordionModule.forRoot(),
     TooltipModule.forRoot(),
-    Ng2DeviceDetectorModule.forRoot(),
+    DeviceDetectorModule.forRoot(),
     ModalModule.forRoot(),
     Angular2FontawesomeModule,
     FlexLayoutModule,
