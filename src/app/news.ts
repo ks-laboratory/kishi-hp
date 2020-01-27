@@ -12,6 +12,24 @@ export const NEWS: {date: Date, title: string, en_title: string,
 // 最新はここの上に追加していく
 
 {
+  date: new Date('2019-11-30'),
+  title: 'FOSE 2019にて西野が発表',
+  en_title: 'Nishino presented at FOSE 2019',
+  abstract: '11月30日、第26回ソフトウェア工学の基礎ワークショップ（FOSE2019）にて西野航平が発表しました。',
+  en_abstract: 'Kohei Nishino presented at FOSE2019, at 30, Nov, 2019.',
+  detail: '11月30日、第26回ソフトウェア工学の基礎ワークショップ（FOSE2019）にて西野航平が、「t-way法に基づくテスト集合最小化問題のアルゴリズム」を発表しました。',
+  img_url: 'assets/img/news/news20191130.jpg',
+},
+{
+  date: new Date('2019-11-23'),
+  title: '秋合宿',
+  en_title: 'Autumn camp',
+  abstract: '11月23-24日、本庄セミナーハウスにて、秋合宿を行いました。',
+  en_abstract: 'We held autumn camp in Honjo seminar house at Nov.23-24.',
+  detail: '2019/11/23(Sat.)〜24(Sun.)、本庄セミナーハウスにて、秋合宿を行いました。今回の合宿では学部3年に対しての研究内容共有や進捗発表のほか、学部3年が5班に分かれ、「Arduino」を使った発表を行いました。夜には、宴会を開催し、親睦を深めました。`',
+  img_url: 'assets/img/news/news20191123.jpg',
+},
+{
   date: new Date('2019-12-2'),
   title: 'APSEC 2019にて秋本が発表',
   en_title: 'Akimoto presented at APSEC 2019',
