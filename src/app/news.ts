@@ -10,7 +10,33 @@
 export const NEWS: {date: Date, title: string, en_title: string,
   abstract: string, en_abstract: string, detail: string, img_url: string}[] = [
 // 最新はここの上に追加していく
-
+{
+  date: new Date('2020-3-16'),
+  title: '「Master the Mainframeコンテスト」にて磯上が地域優秀賞を受賞',
+  en_title: 'Isogami won the Regional Excellence Award at the Master the Mainframe Contest.',
+  abstract: '「Master the Mainframeコンテスト」にて磯上が地域優秀賞を受賞しました。',
+  en_abstract: 'Isogami won the Regional Excellence Award at the Master the Mainframe Contest. at 16, Mar, 2020',
+  detail: '3月16日、Master the Mainframeコンテスト」にて磯上が地域優秀賞を受賞しました。。',
+  img_url: null,
+},
+{
+  date: new Date('2020-3-5'),
+  title: '全国大会に秋本、佐藤が参加',
+  en_title: 'Akimoto and Sato participate in the national convention',
+  abstract: '情報処理学会創立60周年記念第82回全国大会に秋本、佐藤が参加しました。',
+  en_abstract: 'Akimoto and Sato participated in the 82nd National Convention of the IPSJ 60th Anniversary. at 5-7, Mar, 2020',
+  detail: '3月5-7日、情報処理学会創立60周年記念第82回全国大会に秋本、佐藤が参加しました。秋本が「Cordovaハイブリッドアプリケーションにおけるプラグインに着目したリパッケージング攻撃の防御手法」、佐藤が「製品使用ログからの可変性マイニングによる運用プロファイル生成手法の提案」を発表しました。現地開催は注視され、オンライン開催となりました。',
+  img_url: null,
+},
+{
+  date: new Date('2020-1-5'),
+  title: 'IWCT 2020にて西野の論文が受理',
+  en_title: 'Nishino’s paper was accepted at IWCT 2020',
+  abstract: 'IWCT 2020にて西野の論文が受理されました。',
+  en_abstract: 'Nishino’s paper was accepted at IWCT 2020, at 5, Jan, 2020',
+  detail: 'IWCT 2020にて西野の論文「Toward encoding approach to Interaction-based Test Suite Minimization」が受理されました。',
+  img_url: null,
+},    
 {
   date: new Date('2019-12-2'),
   title: 'APSEC 2019にて秋本が発表',
