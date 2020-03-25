@@ -36,7 +36,7 @@ export const NEWS: {date: Date, title: string, en_title: string,
   en_abstract: 'Nishino’s paper was accepted at IWCT 2020, at 5, Jan, 2020',
   detail: 'IWCT 2020にて西野の論文「Toward encoding approach to Interaction-based Test Suite Minimization」が受理されました。',
   img_url: null,
-},
+},    
 {
   date: new Date('2019-12-2'),
   title: 'APSEC 2019にて秋本が発表',
