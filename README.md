@@ -1,28 +1,64 @@
-# KishiHp
+# LAB-HP
+- The Official Website for Software Engineering Laboratory of University in Japan.( [That Angular SPA Lab Site](http://www.kishi.mgmt.waseda.ac.jp) )
+- This project was generated with [Angular CLI](https://cli.angular.io/) version 8.3.23.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.4.
+## Build and Run
 
-## Development server
+### Prerequisites
+- [Node.js](https://nodejs.org/en/): v12.14.1
+- [npm](https://www.npmjs.com/): 6.13.4
+- [Angular CLI](https://github.com/angular/angular-cli): 8.3.23
+- [git](https://git-scm.com/)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Our lab development environment (for reference)
+- OS: MacOS
+- Node.js version manager: [nodebrew](https://github.com/hokaccha/nodebrew) (Windows -> [nodist](https://github.com/marcelklehr/nodist))
+- Editor: [Visual Studio Code(VSCode)](https://code.visualstudio.com/)
+- Deployment: FTP Server
+- Deployment GUI Tool: [Cyberduck](https://cyberduck.io/)
 
-## Code scaffolding
+##### Example of prerequisite installation
+```
+$ nodebrew install-binary v12.14.1
+$ nodebrew use v12.14.1
+$ npm install -g npm@6.13.4
+$ npm install -g @angular/cli@8.3.23
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
+##### Check Version
+```
+$ node -v
+v12.14.1
+$ npm -v
+6.13.4
+$ ng -v
+...
+Angular CLI: 8.3.23
+...
+Angular: 8.2.14
+...
+```
 
-## Build
+### Setting the project
+```
+$ git clone https://github.com/ks-laboratory/kishi-hp.git
+$ cd kishi-hp
+$ npm i
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+### Update the project
+```
+$ git pull
+```
 
-## Running unit tests
+### Development server
+```
+$ npm run start
+```
+Navigate to `http://localhost:4200/`.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+### Production Build
+```
+$ ng build --prod
+```
+Deploy dist/ to the FTP server.

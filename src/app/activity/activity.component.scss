@@ -1,27 +1,22 @@
-.jumbotron{
+.jumbotron {
   background: url("../../assets/img/activity/codefix.jpg") center;
   min-width: 40%;
-  // max-height: 280px;
   background-size: cover;
   max-height: 32vh;
-  // background-color: rgba(0,0,0,0.3);
 }
 
-@media only screen and (max-width: 767px){
-  .jumbotron{
+@media only screen and (max-width: 767px) {
+  .jumbotron {
     background: url("../../assets/img/activity/codefix_small.jpg") center;
     min-width: 40%;
-    // max-height: 280px;
     background-size: cover;
     max-height: 32vh;
   }
 }
 
-.jumbotron .container{
+.jumbotron .container {
   color: ghostwhite;
   text-align: right;
-  // min-width: 50%;
-  // color: #b6fced;
   background-color: rgb(87, 82, 82);
   background: rgba(45,45,45, 0.01);
 }
@@ -47,30 +42,29 @@
 	height: 1px;
 }
 .hr-text:after {
-	content: attr(data-content);
-	position: relative;
-	display: inline-block;
-	color: black;
-	padding: 0 .5em;
-	line-height: 1.5em;
-	color: #818078;
-  // background-color: #fcfcfa;
+  content: attr(data-content);
+  position: relative;
+  display: inline-block;
+  color: black;
+  padding: 0 .5em;
+  line-height: 1.5em;
+  color: #818078;
   background-color: #fff;
 }
 
-.blocks{
+.blocks {
   text-align: center;
 }
 
-.blocks p{
+.blocks p {
   text-align: left;
 }
 
-.blocks h3{
+.blocks h3 {
   font-weight: bold;
   text-align: center;
 }
 
-.lead, .display-4{
+.lead, .display-4 {
   text-shadow: 1.5px 1.5px 2px #999999;
 }

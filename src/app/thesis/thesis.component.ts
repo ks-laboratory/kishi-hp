@@ -16,10 +16,6 @@ export class ThesisComponent implements OnInit, OnDestroy {
   thesisYearRange: number[];
   thesisDegreeRange: string[];
 
-  // thesisDegreeRange: string[] = [
-  //   'master', 'bachelor',
-  // ];
-
   constructor(private thesisService: ThesisService,
     private dataService: DataService) {
       this.subscription = this.dataService.data.subscribe(lang => {

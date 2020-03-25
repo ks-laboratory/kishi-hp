@@ -13,13 +13,67 @@
 
 // 新しい年度時にはここに年度を追加を忘れずに
 export const PUBLICATIONYEARRANGE: number[] = [
-  2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009,
+  2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009,
 ];
 
 
 // 論文追加はこちら
 // 上に追加してくこと！！
 export const PUBLICATIONS: {year: number, author: string, title: string, name: string}[] = [
+  {
+    year: 2019,
+    author: 'A Prioritization Method for SPL Pairwise Testing based on User Profiles',
+    title: 'Doc2Vecを利用したGUIテストスクリプトのロケータ修正手法 (IEEE CS Japan Chapter FOSE Young Researcher Award)',
+    name: 'Proceedings of APSEC 2019 118-125'
+  },
+  {
+    year: 2019,
+    author: '磯上雄人, 岸知二',
+    title: 'Doc2Vecを利用したGUIテストスクリプトのロケータ修正手法 (IEEE CS Japan Chapter FOSE Young Researcher Award)',
+    name: 'ソフトウェア工学の基礎 FOSE 2019 63-72'
+  },
+  {
+    year: 2019,
+    author: '井村悠成, 岸知二',
+    title: 'SQLインジェクションに対する機械学習を用いた攻撃検知手法の提案',
+    name: '情報処理学会第81回全国大会講演論文集 2019(1) 241-242'
+  },
+  {
+    year: 2019,
+    author: '星野隆太 , 岸知二',
+    title: 'センサデバイスの自己適応による効率的なデータ送信手法の提案',
+    name: '情報処理学会第81回全国大会講演論文集 2019(1) 137-138'
+  },
+  {
+    year: 2018,
+    author: '岸知二, 野田夏子',
+    title: 'フィーチャモデル利用の確率的側面に関する一考察',
+    name: 'ソフトウェア工学の基礎XXV FOSE 2018 129-134'
+  },
+  {
+    year: 2018,
+    author: 'Yunkang Xu, Tomoji Kishi',
+    title: 'An Ontology-Based IoT Communication Data Reduction Method (best paper award)',
+    name: '2018 9th IEEE Annual Ubiquitous Computing, Electronics & Mobile Communication Conference (UEMCON) 321-325'
+  },
+  {
+    year: 2018,
+    author: '徐運康, 岸知二',
+    title: 'SSNオントロジを用いたエッジ側での通信トラフィック削減手法',
+    name: '情報処理学会 組込みシステムシンポジウム2018論文集 (ESS2018) 2018 13-16'
+  },
+  {
+    year: 2018,
+    author: 'Naito Oshma, Tomoji Kishi',
+    title: 'Model Checking Method for SPA Page Transition Based on Component-based Framework',
+    name: 'Proc. of The 30th International Conference on Software Engineering & Knowledge Engineering (SEKE 2018) 675-680'
+  },
+  {
+    year: 2018,
+    author: '岸知二, 野田夏子',
+    title: 'フィーチャモデルの近似的解析によるフィーチャ構成導出手法',
+    name: '情報処理学会論文誌 59(4) 1203-1214'
+  },
   {
     year: 2018,
     author: '大嶋乃斗, 岸知二',
@@ -30,37 +84,37 @@ export const PUBLICATIONS: {year: number, author: string, title: string, name: s
     year: 2018,
     author: 'SHICHONGYUAN, 岸知二',
     title: '多目的最適化手法を用いたテストケース優先度決定手法',
-    name: '情報処理学会第80回全国大会論文集, pp.(公開予定)'
+    name: '情報処理学会第80回全国大会論文集'
   },
   {
     year: 2018,
     author: '徐運康, 岸知二',
     title: 'SSNオントロジに基づくエッジ側での効率的なIoTデータフィルタリング手法',
-    name: '情報処理学会第80回全国大会論文集, pp.(公開予定)'
+    name: '情報処理学会第80回全国大会論文集'
   },
   {
     year: 2018,
     author: '中村将仁, 岸知二',
     title: 'IoTシステムのゲートウェイにおける実行履歴を利用した運用プロファイル生成手法',
-    name: '情報処理学会第80回全国大会論文集, pp.(公開予定)'
+    name: '情報処理学会第80回全国大会論文集'
   },
   {
     year: 2018,
     author: '矢島大嗣, 岸知二',
     title: 'IoTにおけるエッジ側アクセス規制のセキュリティ検証',
-    name: '情報処理学会第80回全国大会論文集, pp.(公開予定)'
+    name: '情報処理学会第80回全国大会論文集'
   },
   {
     year: 2018,
     author: '木村健太, 岸知二',
     title: '貢献度を用いた共通ゴール判別手法の提案',
-    name: '情報処理学会第80回全国大会論文集, pp.(公開予定)'
+    name: '情報処理学会第80回全国大会論文集'
   },
   {
     year: 2018,
     author: '張唅宇, 岸知二',
     title: 'MDAアプローチを適用したスマートフォン・アプリケーション・プロトタイプ自動生成手法',
-    name: '情報処理学会第80回全国大会論文集, pp.(公開予定)'
+    name: '情報処理学会第80回全国大会論文集'
   },
   {
     year: 2017,
