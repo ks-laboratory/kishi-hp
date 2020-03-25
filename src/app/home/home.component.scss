@@ -1,14 +1,13 @@
 .top-carousel{
   text-align: center;
-  // margin: 0 auto;
   background-color: gray;
 }
 
 .top-pc-img img {
-  width: 800px;
-  height: 400px;
+  width: 900px;
+  height: 440px;
   max-width: 100%;
-  max-height: 360px;
+  max-height: 400px;
   background: center;
   background-size: cover;
 }
@@ -22,7 +21,6 @@
   text-align: center;
   background-color: rgb(36, 35, 35);
   opacity: 0.9;
-  max-width: 800px;
   left: 25%;
   right: 25%;
 }
@@ -31,14 +29,12 @@
   color: #fff;
   font-weight: bold;
   font-size: 180%;
-  // text-shadow: 2px 2px 0.5px #c0bbbb;
 }
 
 .carousel-caption p{
   color: #fff;
   font-weight: bold;
   font-size: 120%;
-  // text-shadow: 2px 2px 0.5px #c0bbbb;
 }
 
 .card-text{
