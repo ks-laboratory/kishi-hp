@@ -11,12 +11,12 @@ export const NEWS: {date: Date, title: string, en_title: string,
   abstract: string, en_abstract: string, detail: string, img_url: string}[] = [
 // 最新はここの上に追加していく
 {
-  date: new Date('2020-3-16'),
+  date: new Date('2020-3-13'),
   title: '「Master the Mainframeコンテスト」にて磯上が地域優秀賞を受賞',
   en_title: 'Isogami won the Regional Excellence Award at the Master the Mainframe Contest.',
   abstract: '「Master the Mainframeコンテスト」にて磯上が地域優秀賞を受賞しました。',
   en_abstract: 'Isogami won the Regional Excellence Award at the Master the Mainframe Contest. at 16, Mar, 2020',
-  detail: '3月16日、Master the Mainframeコンテスト」にて磯上が地域優秀賞を受賞しました。。',
+  detail: 'プログラミングコンテスト「Master the Mainframeコンテスト」が開催されました。3月13日に受賞者が発表され、磯上が地域優秀賞を受賞しました。。',
   img_url: null,
 },
 {
@@ -36,7 +36,7 @@ export const NEWS: {date: Date, title: string, en_title: string,
   en_abstract: 'Nishino’s paper was accepted at IWCT 2020, at 5, Jan, 2020',
   detail: 'IWCT 2020にて西野の論文「Toward encoding approach to Interaction-based Test Suite Minimization」が受理されました。',
   img_url: null,
-},    
+},
 {
   date: new Date('2019-12-2'),
   title: 'APSEC 2019にて秋本が発表',
