@@ -11,6 +11,15 @@ export const NEWS: {date: Date, title: string, en_title: string,
   abstract: string, en_abstract: string, detail: string, img_url: string}[] = [
 // 最新はここの上に追加していく
 {
+  date: new Date('2022-11-12'),
+  title: 'FOSE 2022にて張が発表',
+  en_title: 'Zhang presented at FOSE 2022',
+  abstract: '11月12日、第29回ソフトウェア工学の基礎ワークショップ（FOSE2022）にて張超群が発表しました。',
+  en_abstract: 'Chaoqun Zhang presented at FOSE2022, at 12, Nov, 2022.',
+  detail: '11月12日、第29回ソフトウェア工学の基礎ワークショップ（FOSE2022）にて西野航平が、「検証パターンに注目した機械学習に基づくモデル検査手法の評価」を発表しました。',
+  img_url: 'assets/img/news/news20221112.jpg',
+},
+{
   date: new Date('2020-3-13'),
   title: '「Master the Mainframeコンテスト」にて磯上が地域優秀賞を受賞',
   en_title: 'Isogami won the Regional Excellence Award at the Master the Mainframe Contest.',
