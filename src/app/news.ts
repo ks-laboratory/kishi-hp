@@ -11,6 +11,28 @@ export const NEWS: {date: Date, title: string, en_title: string,
   abstract: string, en_abstract: string, detail: string, img_url: string}[] = [
 // 最新はここの上に追加していく
 {
+  date: new Date('2023-03-25'),
+  title: '2022年度卒業生(2023年3月卒) ご卒業おめでとうございます！',
+  en_title: 'Congratulations on your graduation in 2022 (graduated in March 2023)!!',
+  abstract: '3/25に2022年度卒業生(2023年3月卒)を祝う追い出しコンパを開催しました。',
+  en_abstract: `We held a party to celebrate graduates of 2022 (graduated from March 2023) on March 25.`,
+  detail: `2023/3/25に2022年度卒業生(2023年3月卒)を祝う追い出しコンパを
+  新宿ワシントンホテルにて開催しました。卒業生の方、今まで本当にありがとうございました。
+  ご卒業おめでとうございます！`,
+  img_url: 'assets/img/news/IMG_0418.jpeg',
+},
+
+{
+  date: new Date('2023-02-22'),
+  title: '北陸先端大との合同合宿',
+  en_title: 'We held camp with JAIST',
+  abstract: '2/22、北陸先端大と合同で合宿を行いました。',
+  en_abstract: 'We held camp with JAIST at Feb. 22.',
+  detail: '2023/2/22(Wed)、北陸先端大と合同で合宿を行いました。',
+  img_url: 'assets/img/news/qqqqqqq.JPG',
+},
+
+{
   date: new Date('2022-11-12'),
   title: 'FOSE 2022にて張が発表',
   en_title: 'Zhang presented at FOSE 2022',
