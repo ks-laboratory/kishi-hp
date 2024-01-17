@@ -11,6 +11,36 @@ export const NEWS: {date: Date, title: string, en_title: string,
   abstract: string, en_abstract: string, detail: string, img_url: string}[] = [
 // 最新はここの上に追加していく
 {
+  date: new Date('2023-11-18'),
+  title: '本庄セミナーハウスにて秋合宿',
+  en_title: 'Fall camp at Honjo Seminar House',
+  abstract: '本庄セミナーハウスにて、秋合宿を行いました。',
+  en_abstract: `The fall camp was held at Honjo Seminar House.`,
+  detail: `本庄セミナーハウスにて、秋合宿を行いました。 今回の合宿では研究内容の理解共有や進捗発表のほか、学部3年〜修士2年が3班に別れ、「Scratch」を用いてに作品を製作・発表しました。親睦を深めました。`,
+  img_url: null,
+},
+
+{
+  date: new Date('2023-08-23'),
+  title: '本庄セミナーハウスにて夏合宿 ',
+  en_title: 'Summer camp at Honjo Seminar House',
+  abstract: '本庄セミナーハウスにて、夏合宿を行いました。',
+  en_abstract: `Summer camp was held at Shojo Seminar House.`,
+  detail: `本庄セミナーハウスにて、夏合宿を行いました。 今回の合宿では研究内容の理解共有や進捗発表のほか、「Arduino」を用いてに作品を製作・発表しました。夜には、バーベキューや宴会を開催し、親睦を深めました。`,
+  img_url: null,
+},
+
+{
+  date: new Date('2023-08-08'),
+  title: '早稲田理工主催のユニラブに岸研究室として出展',
+  en_title: 'Exhibited as Kishi Lab. at Unilab hosted by Waseda Science and Engineering',
+  abstract: '早稲田理工学術院主催のユニラブ(University Lablatory)に出展しました。',
+  en_abstract: `Exhibited at Unilab (University Lablatory) hosted by Waseda University of Science and Engineering.`,
+  detail: `早稲田大学西早稲田キャンパスで毎年開催されている 早稲田理工学術院主催のユニラブ(University Lablatory)に、プログラミング教育の分野で、 岸研究室として4度目の出展を行い、沢山の小学生に楽しんでいただきました。 ビジュアルプログラミングScratchを用いて、アニメーション教室を実施しました。`,
+  img_url: null,
+},
+
+{
   date: new Date('2023-03-25'),
   title: '2022年度卒業生(2023年3月卒) ご卒業おめでとうございます！',
   en_title: 'Congratulations on your graduation in 2022 (graduated in March 2023)!!',
